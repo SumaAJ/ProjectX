@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+IE_MatchAndReconcile,Chrome 72.0.3626.121,,2019-04-05 15:16:24,2019-04-05 15:17:00,35.245s,PASSED
+,,,,,,
+Test Cases/MatchAndReconcilePageTestCase/TC010_VerifyDetailsofMatchAndReconcile,Chrome 72.0.3626.121,,2019-04-05 15:16:26,2019-04-05 15:16:58,31.801s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 72.0.3626.121,,2019-04-05 15:16:26,2019-04-05 15:16:26,0.080s,PASSED
+"callTestCase(findTestCase(""IEHomePageTestCase/TC003_ValidateSwitchBetweenTabOnIEHOME""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-04-05 15:16:27,2019-04-05 15:16:52,25.469s,PASSED
+"waitForElementPresent(findTestObject(""IE_Home_MatchAndReconcile_Page/HeaderOfMatchAndReconcile""), Timeout)",Chrome 72.0.3626.121,,2019-04-05 15:16:52,2019-04-05 15:16:52,0.041s,PASSED
+"elements = getText(findTestObject(""IE_Home_MatchAndReconcile_Page/HeaderOfMatchAndReconcile""))",Chrome 72.0.3626.121,,2019-04-05 15:16:52,2019-04-05 15:16:52,0.097s,PASSED
+getAllDetails_IE_HomePage.PrintStatement.getTextofElement(elements),Chrome 72.0.3626.121,,2019-04-05 15:16:52,2019-04-05 15:16:52,0.001s,PASSED
+delay(Timeout_MinDelay),Chrome 72.0.3626.121,,2019-04-05 15:16:52,2019-04-05 15:16:54,2.013s,PASSED
+getAllDetails_IE_HomePage.Match_Reconcile_Detail.getHeaderDetailsOfMatchAndReconcile(),Chrome 72.0.3626.121,,2019-04-05 15:16:54,2019-04-05 15:16:54,0.080s,PASSED
+getAllDetails_IE_HomePage.Match_Reconcile_Detail.getlistofReconHeader(),Chrome 72.0.3626.121,,2019-04-05 15:16:54,2019-04-05 15:16:55,0.074s,PASSED
+getAllDetails_IE_HomePage.Match_Reconcile_Detail.getDetailsofReconHeader(),Chrome 72.0.3626.121,,2019-04-05 15:16:55,2019-04-05 15:16:55,0.569s,PASSED
+delay(Timeout_MinDelay),Chrome 72.0.3626.121,,2019-04-05 15:16:55,2019-04-05 15:16:57,2.005s,PASSED
+getAllDetails_IE_HomePage.Match_Reconcile_Detail.getDetailsofReceiverHeader(),Chrome 72.0.3626.121,,2019-04-05 15:16:57,2019-04-05 15:16:58,0.481s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 72.0.3626.121,,2019-04-05 15:16:58,2019-04-05 15:16:58,0.004s,PASSED

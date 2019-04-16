@@ -1,0 +1,42 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+IE_HOMEPAGE_TestSuite,Chrome 72.0.3626.121,,2019-04-03 11:00:13,2019-04-03 11:01:46,1m - 32.893s,PASSED
+,,,,,,
+Test Cases/IEHomePageTestCase/TC006_VerifyDetailsOfShowMoreDetailLink,Chrome 72.0.3626.121,,2019-04-03 11:00:14,2019-04-03 11:00:40,26.126s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 72.0.3626.121,,2019-04-03 11:00:14,2019-04-03 11:00:14,0.072s,PASSED
+"callTestCase(findTestCase(""IEHomePageTestCase/TC005_NavigateTO_IE_HOME - Copy""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-04-03 11:00:15,2019-04-03 11:00:37,21.535s,PASSED
+"waitForElementPresent(findTestObject(""IE_Home_ShowMoreDetail_Page/ShowMoreDetails""), Timeout)",Chrome 72.0.3626.121,,2019-04-03 11:00:37,2019-04-03 11:00:37,0.063s,PASSED
+"click(findTestObject(""IE_Home_ShowMoreDetail_Page/ShowMoreDetails""))",Chrome 72.0.3626.121,,2019-04-03 11:00:37,2019-04-03 11:00:37,0.309s,PASSED
+getAllDetails_IE_HomePage.IE_Homepage_Detail.getDetails(),Chrome 72.0.3626.121,,2019-04-03 11:00:37,2019-04-03 11:00:37,0.515s,PASSED
+delay(2),Chrome 72.0.3626.121,,2019-04-03 11:00:37,2019-04-03 11:00:39,2.015s,PASSED
+"scrollToElement(findTestObject(""IE_Home_ShowMoreDetail_Page/ShowLessDetail""), Timeout)",Chrome 72.0.3626.121,,2019-04-03 11:00:39,2019-04-03 11:00:40,0.111s,PASSED
+"TextOfShowLessDetail = getText(findTestObject(""IE_Home_ShowMoreDetail_Page/ShowLessDetail""))",Chrome 72.0.3626.121,,2019-04-03 11:00:40,2019-04-03 11:00:40,0.187s,PASSED
+getAllDetails_IE_HomePage.PrintStatement.getTextofElement(TextOfShowLessDetail),Chrome 72.0.3626.121,,2019-04-03 11:00:40,2019-04-03 11:00:40,0.001s,PASSED
+"click(findTestObject(""IE_Home_ShowMoreDetail_Page/ShowLessDetail""))",Chrome 72.0.3626.121,,2019-04-03 11:00:40,2019-04-03 11:00:40,0.273s,PASSED
+"waitForElementPresent(findTestObject(""IE_Home_ShowMoreDetail_Page/ShowMoreDetails""), Timeout)",Chrome 72.0.3626.121,,2019-04-03 11:00:40,2019-04-03 11:00:40,0.047s,PASSED
+"TextOfShowMoreDetail = getText(findTestObject(""IE_Home_ShowMoreDetail_Page/ShowMoreDetails""))",Chrome 72.0.3626.121,,2019-04-03 11:00:40,2019-04-03 11:00:40,0.116s,PASSED
+getAllDetails_IE_HomePage.PrintStatement.getTextofElement(TextOfShowMoreDetail),Chrome 72.0.3626.121,,2019-04-03 11:00:40,2019-04-03 11:00:40,0.001s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 72.0.3626.121,,2019-04-03 11:00:40,2019-04-03 11:00:40,0.002s,PASSED
+,,,,,,
+Test Cases/IEHomePageTestCase/TC008_GetDetailsofHistoryDetails,Chrome 72.0.3626.121,,2019-04-03 11:00:40,2019-04-03 11:00:59,18.582s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 72.0.3626.121,,2019-04-03 11:00:40,2019-04-03 11:00:40,0.002s,PASSED
+"callTestCase(findTestCase(""IEHomePageTestCase/TC005_NavigateTO_IE_HOME - Copy""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-04-03 11:00:41,2019-04-03 11:00:58,16.778s,PASSED
+getAllDetails_IE_HomePage.IE_Homepage_Detail.getDetailofHistory(),Chrome 72.0.3626.121,,2019-04-03 11:00:58,2019-04-03 11:00:59,1.165s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 72.0.3626.121,,2019-04-03 11:00:59,2019-04-03 11:00:59,0.001s,PASSED
+,,,,,,
+Test Cases/IEHomePageTestCase/TC003_ValidateSwitchBetweenTabOnIEHOME,Chrome 72.0.3626.121,,2019-04-03 11:00:59,2019-04-03 11:01:19,19.777s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 72.0.3626.121,,2019-04-03 11:00:59,2019-04-03 11:00:59,0.000s,PASSED
+"callTestCase(findTestCase(""IEHomePageTestCase/TC005_NavigateTO_IE_HOME - Copy""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-04-03 11:00:59,2019-04-03 11:01:17,17.748s,PASSED
+"getAllDetails_IE_HomePage.IE_Homepage_Detail.verifySwitchTabonIEHOME(""Match & Reconcile"")",Chrome 72.0.3626.121,,2019-04-03 11:01:17,2019-04-03 11:01:19,1.417s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 72.0.3626.121,,2019-04-03 11:01:19,2019-04-03 11:01:19,0.002s,PASSED
+,,,,,,
+Test Cases/MatchAndReconcilePageTestCase/TC010_VerifyDetailsofMatchAndReconcile,Chrome 72.0.3626.121,,2019-04-03 11:01:19,2019-04-03 11:01:44,24.940s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 72.0.3626.121,,2019-04-03 11:01:19,2019-04-03 11:01:19,0.001s,PASSED
+"callTestCase(findTestCase(""IEHomePageTestCase/TC003_ValidateSwitchBetweenTabOnIEHOME""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-04-03 11:01:19,2019-04-03 11:01:38,18.773s,PASSED
+"waitForElementPresent(findTestObject(""IE_Home_MatchAndReconcile_Page/HeaderOfMatchAndReconcile""), Timeout)",Chrome 72.0.3626.121,,2019-04-03 11:01:38,2019-04-03 11:01:38,0.036s,PASSED
+"elements = getText(findTestObject(""IE_Home_MatchAndReconcile_Page/HeaderOfMatchAndReconcile""))",Chrome 72.0.3626.121,,2019-04-03 11:01:38,2019-04-03 11:01:38,0.215s,PASSED
+getAllDetails_IE_HomePage.PrintStatement.getTextofElement(elements),Chrome 72.0.3626.121,,2019-04-03 11:01:38,2019-04-03 11:01:38,0.001s,PASSED
+delay(2),Chrome 72.0.3626.121,,2019-04-03 11:01:38,2019-04-03 11:01:40,2.004s,PASSED
+getAllDetails_IE_HomePage.Match_Reconcile_Detail.getDetailsofReconHeader(),Chrome 72.0.3626.121,,2019-04-03 11:01:40,2019-04-03 11:01:41,0.600s,PASSED
+delay(2),Chrome 72.0.3626.121,,2019-04-03 11:01:41,2019-04-03 11:01:43,2.001s,PASSED
+getAllDetails_IE_HomePage.Match_Reconcile_Detail.getDetailsofReceiverHeader(),Chrome 72.0.3626.121,,2019-04-03 11:01:43,2019-04-03 11:01:44,0.499s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 72.0.3626.121,,2019-04-03 11:01:44,2019-04-03 11:01:44,0.001s,PASSED

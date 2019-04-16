@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+IE_HOMEPAGE_TestSuite,,,2019-04-10 14:47:35,2019-04-10 14:47:48,12.634s,ERROR
+,,,,,,
+Test Cases/IEHomePageTestCase/TC005_NavigateTO_IE_HOME - Copy,,,2019-04-10 14:47:39,2019-04-10 14:47:42,3.072s,ERROR
+Start listener action : sampleBeforeTestCase,,,2019-04-10 14:47:39,2019-04-10 14:47:39,0.030s,PASSED
+"callTestCase(findTestCase(""CommonTestCase/TC001_OpenBrowserForStore""), [:], STOP_ON_FAILURE)",,,2019-04-10 14:47:40,2019-04-10 14:47:41,1.766s,ERROR
+Start listener action : sampleAfterTestCase,,,2019-04-10 14:47:41,2019-04-10 14:47:42,0.513s,PASSED
+,,,,,,
+Test Cases/IEHomePageTestCase/TC006_VerifyDetailsOfShowMoreDetailLink,,,2019-04-10 14:47:42,2019-04-10 14:47:43,1.444s,ERROR
+Start listener action : sampleBeforeTestCase,,,2019-04-10 14:47:42,2019-04-10 14:47:42,0.068s,PASSED
+"callTestCase(findTestCase(""IEHomePageTestCase/TC005_NavigateTO_IE_HOME - Copy""), [:], STOP_ON_FAILURE)",,,2019-04-10 14:47:43,2019-04-10 14:47:43,0.424s,ERROR
+Start listener action : sampleAfterTestCase,,,2019-04-10 14:47:43,2019-04-10 14:47:43,0.052s,PASSED
+,,,,,,
+Test Cases/IEHomePageTestCase/TC008_GetDetailsofHistoryDetails,,,2019-04-10 14:47:43,2019-04-10 14:47:45,1.150s,ERROR
+Start listener action : sampleBeforeTestCase,,,2019-04-10 14:47:43,2019-04-10 14:47:43,0.005s,PASSED
+"callTestCase(findTestCase(""IEHomePageTestCase/TC005_NavigateTO_IE_HOME - Copy""), [:], STOP_ON_FAILURE)",,,2019-04-10 14:47:44,2019-04-10 14:47:44,0.393s,ERROR
+Start listener action : sampleAfterTestCase,,,2019-04-10 14:47:44,2019-04-10 14:47:45,0.063s,PASSED
+,,,,,,
+Test Cases/IEHomePageTestCase/TC003_ValidateSwitchBetweenTabOnIEHOME,,,2019-04-10 14:47:45,2019-04-10 14:47:46,1.213s,ERROR
+Start listener action : sampleBeforeTestCase,,,2019-04-10 14:47:45,2019-04-10 14:47:45,0.007s,PASSED
+"callTestCase(findTestCase(""IEHomePageTestCase/TC005_NavigateTO_IE_HOME - Copy""), [:], STOP_ON_FAILURE)",,,2019-04-10 14:47:45,2019-04-10 14:47:46,0.285s,ERROR
+Start listener action : sampleAfterTestCase,,,2019-04-10 14:47:46,2019-04-10 14:47:46,0.049s,PASSED
+,,,,,,
+Test Cases/IEHomePageTestCase/TC007_VerifyCollapsedModeOfShowMoreDetailLink,,,2019-04-10 14:47:46,2019-04-10 14:47:47,1.013s,ERROR
+Start listener action : sampleBeforeTestCase,,,2019-04-10 14:47:46,2019-04-10 14:47:46,0.004s,PASSED
+"callTestCase(findTestCase(""IEHomePageTestCase/TC005_NavigateTO_IE_HOME - Copy""), [:], STOP_ON_FAILURE)",,,2019-04-10 14:47:46,2019-04-10 14:47:47,0.277s,ERROR
+Start listener action : sampleAfterTestCase,,,2019-04-10 14:47:47,2019-04-10 14:47:47,0.022s,PASSED
+,,,,,,
+Test Cases/MatchAndReconcilePageTestCase/TC010_VerifyDetailsofMatchAndReconcile,,,2019-04-10 14:47:47,2019-04-10 14:47:48,1.078s,ERROR
+Start listener action : sampleBeforeTestCase,,,2019-04-10 14:47:47,2019-04-10 14:47:47,0.004s,PASSED
+"callTestCase(findTestCase(""IEHomePageTestCase/TC003_ValidateSwitchBetweenTabOnIEHOME""), [:], STOP_ON_FAILURE)",,,2019-04-10 14:47:47,2019-04-10 14:47:48,0.428s,ERROR
+Start listener action : sampleAfterTestCase,,,2019-04-10 14:47:48,2019-04-10 14:47:48,0.037s,PASSED

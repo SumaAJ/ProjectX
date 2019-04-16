@@ -1,0 +1,60 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+IE_HOMEPAGE_TestSuite,Chrome 72.0.3626.121,,2019-04-03 11:09:49,2019-04-03 11:11:36,1m - 46.526s,PASSED
+,,,,,,
+Test Cases/IEHomePageTestCase/TC005_NavigateTO_IE_HOME - Copy,Chrome 72.0.3626.121,,2019-04-03 11:09:50,2019-04-03 11:10:10,19.713s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 72.0.3626.121,,2019-04-03 11:09:50,2019-04-03 11:09:51,0.272s,PASSED
+"callTestCase(findTestCase(""CommonTestCase/TC001_OpenBrowserForStore""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-04-03 11:09:51,2019-04-03 11:10:02,10.917s,PASSED
+"waitForElementPresent(findTestObject(""IE_Home_Page/HOT_Operation""), Timeout)",Chrome 72.0.3626.121,,2019-04-03 11:10:02,2019-04-03 11:10:02,0.108s,PASSED
+"click(findTestObject(""IE_Home_Page/HOT_Operation""))",Chrome 72.0.3626.121,,2019-04-03 11:10:02,2019-04-03 11:10:04,1.738s,PASSED
+"waitForElementPresent(findTestObject(""IE_Home_Page/TaskList""), Timeout)",Chrome 72.0.3626.121,,2019-04-03 11:10:04,2019-04-03 11:10:04,0.075s,PASSED
+"click(findTestObject(""IE_Home_Page/TaskList""))",Chrome 72.0.3626.121,,2019-04-03 11:10:04,2019-04-03 11:10:05,1.013s,PASSED
+"scrollToElement(findTestObject(""IE_Home_Page/CaseID""), 5)",Chrome 72.0.3626.121,,2019-04-03 11:10:05,2019-04-03 11:10:08,2.227s,PASSED
+"caseID = getText(findTestObject(""IE_Home_Page/CaseID""))",Chrome 72.0.3626.121,,2019-04-03 11:10:08,2019-04-03 11:10:08,0.143s,PASSED
+getAllDetails_IE_HomePage.PrintStatement.getTextofElement(caseID),Chrome 72.0.3626.121,,2019-04-03 11:10:08,2019-04-03 11:10:08,0.012s,PASSED
+"waitForElementPresent(findTestObject(""IE_Home_Page/Open""), Timeout)",Chrome 72.0.3626.121,,2019-04-03 11:10:08,2019-04-03 11:10:08,0.052s,PASSED
+"click(findTestObject(""IE_Home_Page/Open""))",Chrome 72.0.3626.121,,2019-04-03 11:10:08,2019-04-03 11:10:08,0.727s,PASSED
+switchToWindowIndex(1),Chrome 72.0.3626.121,,2019-04-03 11:10:08,2019-04-03 11:10:09,0.109s,PASSED
+"verifyElementPresent(findTestObject(""IE_Home_Page/IE_HomePage_Text""), Timeout)",Chrome 72.0.3626.121,,2019-04-03 11:10:09,2019-04-03 11:10:10,1.364s,PASSED
+"textOFWalmart = getText(findTestObject(""IE_Home_Page/IE_HomePage_Text""))",Chrome 72.0.3626.121,,2019-04-03 11:10:10,2019-04-03 11:10:10,0.077s,PASSED
+getAllDetails_IE_HomePage.PrintStatement.getTextofElement(textOFWalmart),Chrome 72.0.3626.121,,2019-04-03 11:10:10,2019-04-03 11:10:10,0.002s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 72.0.3626.121,,2019-04-03 11:10:10,2019-04-03 11:10:10,0.011s,PASSED
+,,,,,,
+Test Cases/IEHomePageTestCase/TC006_VerifyDetailsOfShowMoreDetailLink,Chrome 72.0.3626.121,,2019-04-03 11:10:10,2019-04-03 11:10:33,22.493s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 72.0.3626.121,,2019-04-03 11:10:10,2019-04-03 11:10:10,0.002s,PASSED
+"callTestCase(findTestCase(""IEHomePageTestCase/TC005_NavigateTO_IE_HOME - Copy""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-04-03 11:10:11,2019-04-03 11:10:29,17.594s,PASSED
+"waitForElementPresent(findTestObject(""IE_Home_ShowMoreDetail_Page/ShowMoreDetails""), Timeout)",Chrome 72.0.3626.121,,2019-04-03 11:10:29,2019-04-03 11:10:29,0.121s,PASSED
+"click(findTestObject(""IE_Home_ShowMoreDetail_Page/ShowMoreDetails""))",Chrome 72.0.3626.121,,2019-04-03 11:10:29,2019-04-03 11:10:29,0.445s,PASSED
+getAllDetails_IE_HomePage.IE_Homepage_Detail.getDetails(),Chrome 72.0.3626.121,,2019-04-03 11:10:29,2019-04-03 11:10:30,0.371s,PASSED
+delay(2),Chrome 72.0.3626.121,,2019-04-03 11:10:30,2019-04-03 11:10:32,2.014s,PASSED
+"scrollToElement(findTestObject(""IE_Home_ShowMoreDetail_Page/ShowLessDetail""), Timeout)",Chrome 72.0.3626.121,,2019-04-03 11:10:32,2019-04-03 11:10:32,0.206s,PASSED
+"TextOfShowLessDetail = getText(findTestObject(""IE_Home_ShowMoreDetail_Page/ShowLessDetail""))",Chrome 72.0.3626.121,,2019-04-03 11:10:32,2019-04-03 11:10:32,0.097s,PASSED
+getAllDetails_IE_HomePage.PrintStatement.getTextofElement(TextOfShowLessDetail),Chrome 72.0.3626.121,,2019-04-03 11:10:32,2019-04-03 11:10:32,0.001s,PASSED
+"click(findTestObject(""IE_Home_ShowMoreDetail_Page/ShowLessDetail""))",Chrome 72.0.3626.121,,2019-04-03 11:10:32,2019-04-03 11:10:32,0.203s,PASSED
+"waitForElementPresent(findTestObject(""IE_Home_ShowMoreDetail_Page/ShowMoreDetails""), Timeout)",Chrome 72.0.3626.121,,2019-04-03 11:10:32,2019-04-03 11:10:32,0.109s,PASSED
+"TextOfShowMoreDetail = getText(findTestObject(""IE_Home_ShowMoreDetail_Page/ShowMoreDetails""))",Chrome 72.0.3626.121,,2019-04-03 11:10:32,2019-04-03 11:10:33,0.126s,PASSED
+getAllDetails_IE_HomePage.PrintStatement.getTextofElement(TextOfShowMoreDetail),Chrome 72.0.3626.121,,2019-04-03 11:10:33,2019-04-03 11:10:33,0.000s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 72.0.3626.121,,2019-04-03 11:10:33,2019-04-03 11:10:33,0.000s,PASSED
+,,,,,,
+Test Cases/IEHomePageTestCase/TC008_GetDetailsofHistoryDetails,Chrome 72.0.3626.121,,2019-04-03 11:10:33,2019-04-03 11:10:53,20.133s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 72.0.3626.121,,2019-04-03 11:10:33,2019-04-03 11:10:33,0.000s,PASSED
+"callTestCase(findTestCase(""IEHomePageTestCase/TC005_NavigateTO_IE_HOME - Copy""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-04-03 11:10:33,2019-04-03 11:10:52,18.544s,PASSED
+getAllDetails_IE_HomePage.IE_Homepage_Detail.getDetailofHistory(),Chrome 72.0.3626.121,,2019-04-03 11:10:52,2019-04-03 11:10:53,1.034s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 72.0.3626.121,,2019-04-03 11:10:53,2019-04-03 11:10:53,0.000s,PASSED
+,,,,,,
+Test Cases/IEHomePageTestCase/TC003_ValidateSwitchBetweenTabOnIEHOME,Chrome 72.0.3626.121,,2019-04-03 11:10:53,2019-04-03 11:11:12,18.972s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 72.0.3626.121,,2019-04-03 11:10:53,2019-04-03 11:10:53,0.000s,PASSED
+"callTestCase(findTestCase(""IEHomePageTestCase/TC005_NavigateTO_IE_HOME - Copy""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-04-03 11:10:54,2019-04-03 11:11:11,17.098s,PASSED
+"getAllDetails_IE_HomePage.IE_Homepage_Detail.verifySwitchTabonIEHOME(""Match & Reconcile"")",Chrome 72.0.3626.121,,2019-04-03 11:11:11,2019-04-03 11:11:12,0.905s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 72.0.3626.121,,2019-04-03 11:11:12,2019-04-03 11:11:12,0.002s,PASSED
+,,,,,,
+Test Cases/IEHomePageTestCase/TC007_VerifyCollapsedModeOfShowMoreDetailLink,Chrome 72.0.3626.121,,2019-04-03 11:11:12,2019-04-03 11:11:33,21.854s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 72.0.3626.121,,2019-04-03 11:11:12,2019-04-03 11:11:12,0.000s,PASSED
+"callTestCase(findTestCase(""IEHomePageTestCase/TC005_NavigateTO_IE_HOME - Copy""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-04-03 11:11:13,2019-04-03 11:11:31,17.711s,PASSED
+"waitForElementPresent(findTestObject(""IE_Home_ShowMoreDetail_Page/ShowMoreDetails""), Timeout)",Chrome 72.0.3626.121,,2019-04-03 11:11:31,2019-04-03 11:11:31,0.052s,PASSED
+"click(findTestObject(""IE_Home_ShowMoreDetail_Page/ShowMoreDetails""))",Chrome 72.0.3626.121,,2019-04-03 11:11:31,2019-04-03 11:11:31,0.221s,PASSED
+getAllDetails_IE_HomePage.IE_Homepage_Detail.getDetails(),Chrome 72.0.3626.121,,2019-04-03 11:11:31,2019-04-03 11:11:31,0.424s,PASSED
+delay(2),Chrome 72.0.3626.121,,2019-04-03 11:11:31,2019-04-03 11:11:33,2.006s,PASSED
+"scrollToElement(findTestObject(""IE_Home_ShowMoreDetail_Page/ShowLessDetail""), Timeout)",Chrome 72.0.3626.121,,2019-04-03 11:11:33,2019-04-03 11:11:33,0.097s,PASSED
+"textOfShowlessDetail = getText(findTestObject(""IE_Home_ShowMoreDetail_Page/ShowLessDetail""))",Chrome 72.0.3626.121,,2019-04-03 11:11:33,2019-04-03 11:11:33,0.085s,PASSED
+getAllDetails_IE_HomePage.PrintStatement.getTextofElement(textOfShowlessDetail),Chrome 72.0.3626.121,,2019-04-03 11:11:33,2019-04-03 11:11:33,0.001s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 72.0.3626.121,,2019-04-03 11:11:33,2019-04-03 11:11:33,0.002s,PASSED

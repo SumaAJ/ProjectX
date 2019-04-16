@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC010_VerifyDetailsofMatchAndReconcile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9be3ef61-bd1b-4473-a54b-e1e5aaccb56a</testCaseGuid>
+</TestCaseEntity>

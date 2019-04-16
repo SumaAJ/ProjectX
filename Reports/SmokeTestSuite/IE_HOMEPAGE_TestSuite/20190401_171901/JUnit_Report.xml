@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="IE_HOMEPAGE_TestSuite" time="124" tests="5" failures="0" errors="0">
+   <testsuite name="IE_HOMEPAGE_TestSuite" tests="5" failures="0" errors="0" time="124" timestamp="2019-04-01 17:19:15" hostname="vn50b7u - DW5AXDEVOS175.corp.dom" id="Test Suites/SmokeTestSuite/IE_HOMEPAGE_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\vn50b7u\\Katalon Studio\\Demo\\Reports\\SmokeTestSuite\\IE_HOMEPAGE_TestSuite\\20190401_171901"/>
+         <property name="logFiles" value="C:\\Users\\vn50b7u\\Katalon Studio\\Demo\\Reports\\SmokeTestSuite\\IE_HOMEPAGE_TestSuite\\20190401_171901\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="vn50b7u - DW5AXDEVOS175.corp.dom"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="Chrome 72.0.3626.121"/>
+         <property name="hostAddress" value="10.96.245.244"/>
+         <property name="sessionId" value="84061e9e0dba15abe10175ba66f5f83d"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/CoraHomePage/NavigateTO_IE_HOME" classname="Test Cases/CoraHomePage/NavigateTO_IE_HOME" status="PASSED">
+         <system-out><![CDATA[2019-04-01 17:19:15 - [TEST_CASE][PASSED] - Test Cases/CoraHomePage/NavigateTO_IE_HOME: Test Cases/CoraHomePage/NavigateTO_IE_HOME
+
+2019-04-01 17:19:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common_TestCase/OpenBrowserNavigateToURL"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common_TestCase/OpenBrowserNavigateToURL' successfully
+
+2019-04-01 17:19:17 - [TEST_CASE][PASSED] - Test Cases/Common_TestCase/OpenBrowserNavigateToURL: Test Cases/Common_TestCase/OpenBrowserNavigateToURL
+
+2019-04-01 17:19:17 - [TEST_STEP][PASSED] - try: Wait for page load successfully
+
+2019-04-01 17:19:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-01 17:19:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-01 17:19:18 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-01 17:19:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-01 17:19:24 - [TEST_STEP][PASSED] - navigateToUrl(QAURL): Navigate to 'http://hazr0240ada942.cloud.wal-mart.com' successfully
+
+2019-04-01 17:19:27 - [MESSAGE][PASSED] - Navigate to 'http://hazr0240ada942.cloud.wal-mart.com' successfully
+
+2019-04-01 17:19:27 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-01 17:19:27 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-01 17:19:27 - [TEST_STEP][PASSED] - waitForPageLoad(Timeout): Wait for page load successfully
+
+2019-04-01 17:19:27 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-01 17:19:27 - [TEST_STEP][PASSED] - try: null
+
+2019-04-01 17:19:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("IE_HOME_Page_Object/Logo")): Object 'Object Repository/IE_HOME_Page_Object/Logo' is visible
+
+2019-04-01 17:19:27 - [MESSAGE][PASSED] - Object 'Object Repository/IE_HOME_Page_Object/Logo' is visible
+
+2019-04-01 17:19:27 - [TEST_STEP][PASSED] - println("Cora sequence Home page is displayed"): null
+
+2019-04-01 17:19:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common_TestCase/OpenBrowserNavigateToURL' successfully
+
+2019-04-01 17:19:27 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("IE_HOME_Page_Object/HOT_Operation"), Timeout): Object 'Object Repository/IE_HOME_Page_Object/HOT_Operation' is present
+
+2019-04-01 17:19:28 - [MESSAGE][PASSED] - Object 'Object Repository/IE_HOME_Page_Object/HOT_Operation' is present
+
+2019-04-01 17:19:28 - [TEST_STEP][PASSED] - click(findTestObject("IE_HOME_Page_Object/HOT_Operation")): Object: 'Object Repository/IE_HOME_Page_Object/HOT_Operation' is clicked on
+
+2019-04-01 17:19:30 - [MESSAGE][PASSED] - Object: 'Object Repository/IE_HOME_Page_Object/HOT_Operation' is clicked on
+
+2019-04-01 17:19:30 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("IE_HOME_Page_Object/TaskList"), Timeout): Object 'Object Repository/IE_HOME_Page_Object/TaskList' is present
+
+2019-04-01 17:19:30 - [MESSAGE][PASSED] - Object 'Object Repository/IE_HOME_Page_Object/TaskList' is present
+
+2019-04-01 17:19:30 - [TEST_STEP][PASSED] - click(findTestObject("IE_HOME_Page_Object/TaskList")): Object: 'Object Repository/IE_HOME_Page_Object/TaskList' is clicked on
+
+2019-04-01 17:19:32 - [MESSAGE][PASSED] - Object: 'Object Repository/IE_HOME_Page_Object/TaskList' is clicked on
+
+2019-04-01 17:19:32 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("IE_HOME_Page_Object/OpenLink"), Timeout): Object 'Object Repository/IE_HOME_Page_Object/OpenLink' is not present after 2 second(s)
+
+2019-04-01 17:19:34 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//tr)[1]/following::td[3]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-04-01 17:19:34 - [MESSAGE][WARNING] - Object 'Object Repository/IE_HOME_Page_Object/OpenLink' is not present after 2 second(s)
+
+2019-04-01 17:19:34 - [TEST_STEP][PASSED] - click(findTestObject("IE_HOME_Page_Object/OpenLink")): Object: 'Object Repository/IE_HOME_Page_Object/OpenLink' is clicked on
+
+2019-04-01 17:19:35 - [MESSAGE][PASSED] - Object: 'Object Repository/IE_HOME_Page_Object/OpenLink' is clicked on
+
+2019-04-01 17:19:35 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2019-04-01 17:19:36 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2019-04-01 17:19:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("IE_HOME_Page_Object/IE_HomePage_Text"), Timeout): Object 'Object Repository/IE_HOME_Page_Object/IE_HomePage_Text' is present
+
+2019-04-01 17:19:38 - [MESSAGE][PASSED] - Object 'Object Repository/IE_HOME_Page_Object/IE_HomePage_Text' is present
+
+2019-04-01 17:19:38 - [TEST_STEP][PASSED] - Text = getText(findTestObject("IE_HOME_Page_Object/IE_HomePage_Text")): Text of object 'Object Repository/IE_HOME_Page_Object/IE_HomePage_Text' is: 'WALMART'
+
+2019-04-01 17:19:38 - [MESSAGE][PASSED] - Text of object 'Object Repository/IE_HOME_Page_Object/IE_HomePage_Text' is: 'WALMART'
+
+2019-04-01 17:19:38 - [TEST_STEP][PASSED] - println("IE Home page is displayed by verifying the text :" + Text): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CoraHomePage/IE_HOME_ShowMoreDetail" classname="Test Cases/CoraHomePage/IE_HOME_ShowMoreDetail" status="PASSED">
+         <system-out><![CDATA[2019-04-01 17:19:38 - [TEST_CASE][PASSED] - Test Cases/CoraHomePage/IE_HOME_ShowMoreDetail: Test Cases/CoraHomePage/IE_HOME_ShowMoreDetail
+
+2019-04-01 17:19:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CoraHomePage/NavigateTO_IE_HOME"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/CoraHomePage/NavigateTO_IE_HOME' successfully
+
+2019-04-01 17:19:39 - [TEST_CASE][PASSED] - Test Cases/CoraHomePage/NavigateTO_IE_HOME: Test Cases/CoraHomePage/NavigateTO_IE_HOME
+
+2019-04-01 17:19:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common_TestCase/OpenBrowserNavigateToURL"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common_TestCase/OpenBrowserNavigateToURL' successfully
+
+2019-04-01 17:19:39 - [TEST_CASE][PASSED] - Test Cases/Common_TestCase/OpenBrowserNavigateToURL: Test Cases/Common_TestCase/OpenBrowserNavigateToURL
+
+2019-04-01 17:19:39 - [TEST_STEP][PASSED] - try: Wait for page load successfully
+
+2019-04-01 17:19:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-01 17:19:39 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-01 17:19:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-01 17:19:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-01 17:19:44 - [TEST_STEP][PASSED] - navigateToUrl(QAURL): Navigate to 'http://hazr0240ada942.cloud.wal-mart.com' successfully
+
+2019-04-01 17:19:47 - [MESSAGE][PASSED] - Navigate to 'http://hazr0240ada942.cloud.wal-mart.com' successfully
+
+2019-04-01 17:19:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-01 17:19:48 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-01 17:19:48 - [TEST_STEP][PASSED] - waitForPageLoad(Timeout): Wait for page load successfully
+
+2019-04-01 17:19:48 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-01 17:19:48 - [TEST_STEP][PASSED] - try: null
+
+2019-04-01 17:19:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("IE_HOME_Page_Object/Logo")): Object 'Object Repository/IE_HOME_Page_Object/Logo' is visible
+
+2019-04-01 17:19:48 - [MESSAGE][PASSED] - Object 'Object Repository/IE_HOME_Page_Object/Logo' is visible
+
+2019-04-01 17:19:48 - [TEST_STEP][PASSED] - println("Cora sequence Home page is displayed"): null
+
+2019-04-01 17:19:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common_TestCase/OpenBrowserNavigateToURL' successfully
+
+2019-04-01 17:19:48 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("IE_HOME_Page_Object/HOT_Operation"), Timeout): Object 'Object Repository/IE_HOME_Page_Object/HOT_Operation' is present
+
+2019-04-01 17:19:48 - [MESSAGE][PASSED] - Object 'Object Repository/IE_HOME_Page_Object/HOT_Operation' is present
+
+2019-04-01 17:19:48 - [TEST_STEP][PASSED] - click(findTestObject("IE_HOME_Page_Object/HOT_Operation")): Object: 'Object Repository/IE_HOME_Page_Object/HOT_Operation' is clicked on
+
+2019-04-01 17:19:50 - [MESSAGE][PASSED] - Object: 'Object Repository/IE_HOME_Page_Object/HOT_Operation' is clicked on
+
+2019-04-01 17:19:50 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("IE_HOME_Page_Object/TaskList"), Timeout): Object 'Object Repository/IE_HOME_Page_Object/TaskList' is present
+
+2019-04-01 17:19:50 - [MESSAGE][PASSED] - Object 'Object Repository/IE_HOME_Page_Object/TaskList' is present
+
+2019-04-01 17:19:50 - [TEST_STEP][PASSED] - click(findTestObject("IE_HOME_Page_Object/TaskList")): Object: 'Object Repository/IE_HOME_Page_Object/TaskList' is clicked on
+
+2019-04-01 17:19:51 - [MESSAGE][PASSED] - Object: 'Object Repository/IE_HOME_Page_Object/TaskList' is clicked on
+
+2019-04-01 17:19:51 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("IE_HOME_Page_Object/OpenLink"), Timeout): Object 'Object Repository/IE_HOME_Page_Object/OpenLink' is not present after 2 second(s)
+
+2019-04-01 17:19:53 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//tr)[1]/following::td[3]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-04-01 17:19:53 - [MESSAGE][WARNING] - Object 'Object Repository/IE_HOME_Page_Object/OpenLink' is not present after 2 second(s)
+
+2019-04-01 17:19:53 - [TEST_STEP][PASSED] - click(findTestObject("IE_HOME_Page_Object/OpenLink")): Object: 'Object Repository/IE_HOME_Page_Object/OpenLink' is clicked on
+
+2019-04-01 17:19:54 - [MESSAGE][PASSED] - Object: 'Object Repository/IE_HOME_Page_Object/OpenLink' is clicked on
+
+2019-04-01 17:19:54 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2019-04-01 17:19:54 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2019-04-01 17:19:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("IE_HOME_Page_Object/IE_HomePage_Text"), Timeout): Object 'Object Repository/IE_HOME_Page_Object/IE_HomePage_Text' is present
+
+2019-04-01 17:19:56 - [MESSAGE][PASSED] - Object 'Object Repository/IE_HOME_Page_Object/IE_HomePage_Text' is present
+
+2019-04-01 17:19:56 - [TEST_STEP][PASSED] - Text = getText(findTestObject("IE_HOME_Page_Object/IE_HomePage_Text")): Text of object 'Object Repository/IE_HOME_Page_Object/IE_HomePage_Text' is: 'WALMART'
+
+2019-04-01 17:19:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/IE_HOME_Page_Object/IE_HomePage_Text' is: 'WALMART'
+
+2019-04-01 17:19:57 - [TEST_STEP][PASSED] - println("IE Home page is displayed by verifying the text :" + Text): null
+
+2019-04-01 17:19:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CoraHomePage/NavigateTO_IE_HOME' successfully
+
+2019-04-01 17:19:57 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("IE_Home_ShowMoreDetail/ShowMoreDetails"), Timeout): Object 'Object Repository/IE_Home_ShowMoreDetail/ShowMoreDetails' is present
+
+2019-04-01 17:19:57 - [MESSAGE][PASSED] - Object 'Object Repository/IE_Home_ShowMoreDetail/ShowMoreDetails' is present
+
+2019-04-01 17:19:57 - [TEST_STEP][PASSED] - click(findTestObject("IE_Home_ShowMoreDetail/ShowMoreDetails")): Object: 'Object Repository/IE_Home_ShowMoreDetail/ShowMoreDetails' is clicked on
+
+2019-04-01 17:19:57 - [MESSAGE][PASSED] - Object: 'Object Repository/IE_Home_ShowMoreDetail/ShowMoreDetails' is clicked on
+
+2019-04-01 17:19:57 - [TEST_STEP][PASSED] - getAllDetails_IE_HomePage.IE_Homepage_Detail.getDetails(): getAllDetails_IE_HomePage.IE_Homepage_Detail.getDetails is PASSED
+
+2019-04-01 17:19:58 - [MESSAGE][PASSED] - getAllDetails_IE_HomePage.IE_Homepage_Detail.getDetails is PASSED
+
+2019-04-01 17:19:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-01 17:20:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-01 17:20:00 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("IE_Home_ShowMoreDetail/ShowLessDetail"), Timeout): Scroll to object 'Object Repository/IE_Home_ShowMoreDetail/ShowLessDetail' successfully
+
+2019-04-01 17:20:00 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IE_Home_ShowMoreDetail/ShowLessDetail' successfully
+
+2019-04-01 17:20:00 - [TEST_STEP][PASSED] - getText(findTestObject("IE_Home_ShowMoreDetail/ShowLessDetail")): Text of object 'Object Repository/IE_Home_ShowMoreDetail/ShowLessDetail' is: 'Show Less Details'
+
+2019-04-01 17:20:00 - [MESSAGE][PASSED] - Text of object 'Object Repository/IE_Home_ShowMoreDetail/ShowLessDetail' is: 'Show Less Details']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CoraHomePage/IE_Home_HistoryDetails" classname="Test Cases/CoraHomePage/IE_Home_HistoryDetails" status="PASSED">
+         <system-out><![CDATA[2019-04-01 17:20:00 - [TEST_CASE][PASSED] - Test Cases/CoraHomePage/IE_Home_HistoryDetails: Test Cases/CoraHomePage/IE_Home_HistoryDetails
+
+2019-04-01 17:20:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CoraHomePage/NavigateTO_IE_HOME"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/CoraHomePage/NavigateTO_IE_HOME' successfully
+
+2019-04-01 17:20:01 - [TEST_CASE][PASSED] - Test Cases/CoraHomePage/NavigateTO_IE_HOME: Test Cases/CoraHomePage/NavigateTO_IE_HOME
+
+2019-04-01 17:20:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common_TestCase/OpenBrowserNavigateToURL"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common_TestCase/OpenBrowserNavigateToURL' successfully
+
+2019-04-01 17:20:01 - [TEST_CASE][PASSED] - Test Cases/Common_TestCase/OpenBrowserNavigateToURL: Test Cases/Common_TestCase/OpenBrowserNavigateToURL
+
+2019-04-01 17:20:01 - [TEST_STEP][PASSED] - try: Wait for page load successfully
+
+2019-04-01 17:20:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-01 17:20:01 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-01 17:20:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-01 17:20:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-01 17:20:07 - [TEST_STEP][PASSED] - navigateToUrl(QAURL): Navigate to 'http://hazr0240ada942.cloud.wal-mart.com' successfully
+
+2019-04-01 17:20:11 - [MESSAGE][PASSED] - Navigate to 'http://hazr0240ada942.cloud.wal-mart.com' successfully
+
+2019-04-01 17:20:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-01 17:20:12 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-01 17:20:12 - [TEST_STEP][PASSED] - waitForPageLoad(Timeout): Wait for page load successfully
+
+2019-04-01 17:20:12 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-01 17:20:12 - [TEST_STEP][PASSED] - try: null
+
+2019-04-01 17:20:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("IE_HOME_Page_Object/Logo")): Object 'Object Repository/IE_HOME_Page_Object/Logo' is visible
+
+2019-04-01 17:20:12 - [MESSAGE][PASSED] - Object 'Object Repository/IE_HOME_Page_Object/Logo' is visible
+
+2019-04-01 17:20:12 - [TEST_STEP][PASSED] - println("Cora sequence Home page is displayed"): null
+
+2019-04-01 17:20:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common_TestCase/OpenBrowserNavigateToURL' successfully
+
+2019-04-01 17:20:12 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("IE_HOME_Page_Object/HOT_Operation"), Timeout): Object 'Object Repository/IE_HOME_Page_Object/HOT_Operation' is present
+
+2019-04-01 17:20:12 - [MESSAGE][PASSED] - Object 'Object Repository/IE_HOME_Page_Object/HOT_Operation' is present
+
+2019-04-01 17:20:12 - [TEST_STEP][PASSED] - click(findTestObject("IE_HOME_Page_Object/HOT_Operation")): Object: 'Object Repository/IE_HOME_Page_Object/HOT_Operation' is clicked on
+
+2019-04-01 17:20:14 - [MESSAGE][PASSED] - Object: 'Object Repository/IE_HOME_Page_Object/HOT_Operation' is clicked on
+
+2019-04-01 17:20:14 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("IE_HOME_Page_Object/TaskList"), Timeout): Object 'Object Repository/IE_HOME_Page_Object/TaskList' is present
+
+2019-04-01 17:20:15 - [MESSAGE][PASSED] - Object 'Object Repository/IE_HOME_Page_Object/TaskList' is present
+
+2019-04-01 17:20:15 - [TEST_STEP][PASSED] - click(findTestObject("IE_HOME_Page_Object/TaskList")): Object: 'Object Repository/IE_HOME_Page_Object/TaskList' is clicked on
+
+2019-04-01 17:20:16 - [MESSAGE][PASSED] - Object: 'Object Repository/IE_HOME_Page_Object/TaskList' is clicked on
+
+2019-04-01 17:20:16 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("IE_HOME_Page_Object/OpenLink"), Timeout): Object 'Object Repository/IE_HOME_Page_Object/OpenLink' is not present after 2 second(s)
+
+2019-04-01 17:20:18 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//tr)[1]/following::td[3]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-04-01 17:20:18 - [MESSAGE][WARNING] - Object 'Object Repository/IE_HOME_Page_Object/OpenLink' is not present after 2 second(s)
+
+2019-04-01 17:20:18 - [TEST_STEP][PASSED] - click(findTestObject("IE_HOME_Page_Object/OpenLink")): Object: 'Object Repository/IE_HOME_Page_Object/OpenLink' is clicked on
+
+2019-04-01 17:20:19 - [MESSAGE][PASSED] - Object: 'Object Repository/IE_HOME_Page_Object/OpenLink' is clicked on
+
+2019-04-01 17:20:19 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2019-04-01 17:20:19 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2019-04-01 17:20:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("IE_HOME_Page_Object/IE_HomePage_Text"), Timeout): Object 'Object Repository/IE_HOME_Page_Object/IE_HomePage_Text' is present
+
+2019-04-01 17:20:21 - [MESSAGE][PASSED] - Object 'Object Repository/IE_HOME_Page_Object/IE_HomePage_Text' is present
+
+2019-04-01 17:20:21 - [TEST_STEP][PASSED] - Text = getText(findTestObject("IE_HOME_Page_Object/IE_HomePage_Text")): Text of object 'Object Repository/IE_HOME_Page_Object/IE_HomePage_Text' is: 'WALMART'
+
+2019-04-01 17:20:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/IE_HOME_Page_Object/IE_HomePage_Text' is: 'WALMART'
+
+2019-04-01 17:20:21 - [TEST_STEP][PASSED] - println("IE Home page is displayed by verifying the text :" + Text): null
+
+2019-04-01 17:20:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CoraHomePage/NavigateTO_IE_HOME' successfully
+
+2019-04-01 17:20:21 - [TEST_STEP][PASSED] - getAllDetails_IE_HomePage.IE_Homepage_Detail.getDetailofHistory(): getAllDetails_IE_HomePage.IE_Homepage_Detail.getDetailofHistory is PASSED
+
+2019-04-01 17:20:23 - [MESSAGE][PASSED] - getAllDetails_IE_HomePage.IE_Homepage_Detail.getDetailofHistory is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CoraHomePage/Verify_SwitchBetweenTabOnIEHOME" classname="Test Cases/CoraHomePage/Verify_SwitchBetweenTabOnIEHOME" status="PASSED">
+         <system-out><![CDATA[2019-04-01 17:20:23 - [TEST_CASE][PASSED] - Test Cases/CoraHomePage/Verify_SwitchBetweenTabOnIEHOME: Test Cases/CoraHomePage/Verify_SwitchBetweenTabOnIEHOME
+
+2019-04-01 17:20:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CoraHomePage/NavigateTO_IE_HOME"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/CoraHomePage/NavigateTO_IE_HOME' successfully
+
+2019-04-01 17:20:23 - [TEST_CASE][PASSED] - Test Cases/CoraHomePage/NavigateTO_IE_HOME: Test Cases/CoraHomePage/NavigateTO_IE_HOME
+
+2019-04-01 17:20:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common_TestCase/OpenBrowserNavigateToURL"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common_TestCase/OpenBrowserNavigateToURL' successfully
+
+2019-04-01 17:20:24 - [TEST_CASE][PASSED] - Test Cases/Common_TestCase/OpenBrowserNavigateToURL: Test Cases/Common_TestCase/OpenBrowserNavigateToURL
+
+2019-04-01 17:20:24 - [TEST_STEP][PASSED] - try: Wait for page load successfully
+
+2019-04-01 17:20:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-01 17:20:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-01 17:20:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-01 17:20:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-01 17:20:30 - [TEST_STEP][PASSED] - navigateToUrl(QAURL): Navigate to 'http://hazr0240ada942.cloud.wal-mart.com' successfully
+
+2019-04-01 17:20:33 - [MESSAGE][PASSED] - Navigate to 'http://hazr0240ada942.cloud.wal-mart.com' successfully
+
+2019-04-01 17:20:33 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-01 17:20:33 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-01 17:20:33 - [TEST_STEP][PASSED] - waitForPageLoad(Timeout): Wait for page load successfully
+
+2019-04-01 17:20:33 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-01 17:20:33 - [TEST_STEP][PASSED] - try: null
+
+2019-04-01 17:20:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("IE_HOME_Page_Object/Logo")): Object 'Object Repository/IE_HOME_Page_Object/Logo' is visible
+
+2019-04-01 17:20:33 - [MESSAGE][PASSED] - Object 'Object Repository/IE_HOME_Page_Object/Logo' is visible
+
+2019-04-01 17:20:33 - [TEST_STEP][PASSED] - println("Cora sequence Home page is displayed"): null
+
+2019-04-01 17:20:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common_TestCase/OpenBrowserNavigateToURL' successfully
+
+2019-04-01 17:20:33 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("IE_HOME_Page_Object/HOT_Operation"), Timeout): Object 'Object Repository/IE_HOME_Page_Object/HOT_Operation' is present
+
+2019-04-01 17:20:33 - [MESSAGE][PASSED] - Object 'Object Repository/IE_HOME_Page_Object/HOT_Operation' is present
+
+2019-04-01 17:20:33 - [TEST_STEP][PASSED] - click(findTestObject("IE_HOME_Page_Object/HOT_Operation")): Object: 'Object Repository/IE_HOME_Page_Object/HOT_Operation' is clicked on
+
+2019-04-01 17:20:35 - [MESSAGE][PASSED] - Object: 'Object Repository/IE_HOME_Page_Object/HOT_Operation' is clicked on
+
+2019-04-01 17:20:35 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("IE_HOME_Page_Object/TaskList"), Timeout): Object 'Object Repository/IE_HOME_Page_Object/TaskList' is present
+
+2019-04-01 17:20:35 - [MESSAGE][PASSED] - Object 'Object Repository/IE_HOME_Page_Object/TaskList' is present
+
+2019-04-01 17:20:35 - [TEST_STEP][PASSED] - click(findTestObject("IE_HOME_Page_Object/TaskList")): Object: 'Object Repository/IE_HOME_Page_Object/TaskList' is clicked on
+
+2019-04-01 17:20:36 - [MESSAGE][PASSED] - Object: 'Object Repository/IE_HOME_Page_Object/TaskList' is clicked on
+
+2019-04-01 17:20:36 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("IE_HOME_Page_Object/OpenLink"), Timeout): Object 'Object Repository/IE_HOME_Page_Object/OpenLink' is not present after 2 second(s)
+
+2019-04-01 17:20:38 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//tr)[1]/following::td[3]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-04-01 17:20:38 - [MESSAGE][WARNING] - Object 'Object Repository/IE_HOME_Page_Object/OpenLink' is not present after 2 second(s)
+
+2019-04-01 17:20:38 - [TEST_STEP][PASSED] - click(findTestObject("IE_HOME_Page_Object/OpenLink")): Object: 'Object Repository/IE_HOME_Page_Object/OpenLink' is clicked on
+
+2019-04-01 17:20:39 - [MESSAGE][PASSED] - Object: 'Object Repository/IE_HOME_Page_Object/OpenLink' is clicked on
+
+2019-04-01 17:20:39 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2019-04-01 17:20:39 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2019-04-01 17:20:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("IE_HOME_Page_Object/IE_HomePage_Text"), Timeout): Object 'Object Repository/IE_HOME_Page_Object/IE_HomePage_Text' is present
+
+2019-04-01 17:20:40 - [MESSAGE][PASSED] - Object 'Object Repository/IE_HOME_Page_Object/IE_HomePage_Text' is present
+
+2019-04-01 17:20:40 - [TEST_STEP][PASSED] - Text = getText(findTestObject("IE_HOME_Page_Object/IE_HomePage_Text")): Text of object 'Object Repository/IE_HOME_Page_Object/IE_HomePage_Text' is: 'WALMART'
+
+2019-04-01 17:20:41 - [MESSAGE][PASSED] - Text of object 'Object Repository/IE_HOME_Page_Object/IE_HomePage_Text' is: 'WALMART'
+
+2019-04-01 17:20:41 - [TEST_STEP][PASSED] - println("IE Home page is displayed by verifying the text :" + Text): null
+
+2019-04-01 17:20:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CoraHomePage/NavigateTO_IE_HOME' successfully
+
+2019-04-01 17:20:41 - [TEST_STEP][PASSED] - getAllDetails_IE_HomePage.IE_Homepage_Detail.verifySwitchTabonIEHOME("Match & Reconcile"): getAllDetails_IE_HomePage.IE_Homepage_Detail.verifySwitchTabonIEHOME is PASSED
+
+2019-04-01 17:20:43 - [MESSAGE][PASSED] - getAllDetails_IE_HomePage.IE_Homepage_Detail.verifySwitchTabonIEHOME is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/VerifyDetailsofMatchAndReconcile" classname="Test Cases/VerifyDetailsofMatchAndReconcile" status="PASSED">
+         <system-out><![CDATA[2019-04-01 17:20:43 - [TEST_CASE][PASSED] - Test Cases/VerifyDetailsofMatchAndReconcile: Test Cases/VerifyDetailsofMatchAndReconcile
+
+2019-04-01 17:20:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CoraHomePage/Verify_SwitchBetweenTabOnIEHOME"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/CoraHomePage/Verify_SwitchBetweenTabOnIEHOME' successfully
+
+2019-04-01 17:20:44 - [TEST_CASE][PASSED] - Test Cases/CoraHomePage/Verify_SwitchBetweenTabOnIEHOME: Test Cases/CoraHomePage/Verify_SwitchBetweenTabOnIEHOME
+
+2019-04-01 17:20:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CoraHomePage/NavigateTO_IE_HOME"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/CoraHomePage/NavigateTO_IE_HOME' successfully
+
+2019-04-01 17:20:44 - [TEST_CASE][PASSED] - Test Cases/CoraHomePage/NavigateTO_IE_HOME: Test Cases/CoraHomePage/NavigateTO_IE_HOME
+
+2019-04-01 17:20:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common_TestCase/OpenBrowserNavigateToURL"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common_TestCase/OpenBrowserNavigateToURL' successfully
+
+2019-04-01 17:20:44 - [TEST_CASE][PASSED] - Test Cases/Common_TestCase/OpenBrowserNavigateToURL: Test Cases/Common_TestCase/OpenBrowserNavigateToURL
+
+2019-04-01 17:20:45 - [TEST_STEP][PASSED] - try: Wait for page load successfully
+
+2019-04-01 17:20:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-01 17:20:45 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-01 17:20:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-01 17:20:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-01 17:20:51 - [TEST_STEP][PASSED] - navigateToUrl(QAURL): Navigate to 'http://hazr0240ada942.cloud.wal-mart.com' successfully
+
+2019-04-01 17:21:00 - [MESSAGE][PASSED] - Navigate to 'http://hazr0240ada942.cloud.wal-mart.com' successfully
+
+2019-04-01 17:21:00 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-01 17:21:00 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-01 17:21:00 - [TEST_STEP][PASSED] - waitForPageLoad(Timeout): Wait for page load successfully
+
+2019-04-01 17:21:00 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-01 17:21:00 - [TEST_STEP][PASSED] - try: null
+
+2019-04-01 17:21:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("IE_HOME_Page_Object/Logo")): Object 'Object Repository/IE_HOME_Page_Object/Logo' is visible
+
+2019-04-01 17:21:01 - [MESSAGE][PASSED] - Object 'Object Repository/IE_HOME_Page_Object/Logo' is visible
+
+2019-04-01 17:21:01 - [TEST_STEP][PASSED] - println("Cora sequence Home page is displayed"): null
+
+2019-04-01 17:21:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common_TestCase/OpenBrowserNavigateToURL' successfully
+
+2019-04-01 17:21:01 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("IE_HOME_Page_Object/HOT_Operation"), Timeout): Object 'Object Repository/IE_HOME_Page_Object/HOT_Operation' is present
+
+2019-04-01 17:21:01 - [MESSAGE][PASSED] - Object 'Object Repository/IE_HOME_Page_Object/HOT_Operation' is present
+
+2019-04-01 17:21:01 - [TEST_STEP][PASSED] - click(findTestObject("IE_HOME_Page_Object/HOT_Operation")): Object: 'Object Repository/IE_HOME_Page_Object/HOT_Operation' is clicked on
+
+2019-04-01 17:21:04 - [MESSAGE][PASSED] - Object: 'Object Repository/IE_HOME_Page_Object/HOT_Operation' is clicked on
+
+2019-04-01 17:21:04 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("IE_HOME_Page_Object/TaskList"), Timeout): Object 'Object Repository/IE_HOME_Page_Object/TaskList' is present
+
+2019-04-01 17:21:04 - [MESSAGE][PASSED] - Object 'Object Repository/IE_HOME_Page_Object/TaskList' is present
+
+2019-04-01 17:21:04 - [TEST_STEP][PASSED] - click(findTestObject("IE_HOME_Page_Object/TaskList")): Object: 'Object Repository/IE_HOME_Page_Object/TaskList' is clicked on
+
+2019-04-01 17:21:05 - [MESSAGE][PASSED] - Object: 'Object Repository/IE_HOME_Page_Object/TaskList' is clicked on
+
+2019-04-01 17:21:05 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("IE_HOME_Page_Object/OpenLink"), Timeout): Object 'Object Repository/IE_HOME_Page_Object/OpenLink' is not present after 2 second(s)
+
+2019-04-01 17:21:07 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//tr)[1]/following::td[3]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-04-01 17:21:07 - [MESSAGE][WARNING] - Object 'Object Repository/IE_HOME_Page_Object/OpenLink' is not present after 2 second(s)
+
+2019-04-01 17:21:07 - [TEST_STEP][PASSED] - click(findTestObject("IE_HOME_Page_Object/OpenLink")): Object: 'Object Repository/IE_HOME_Page_Object/OpenLink' is clicked on
+
+2019-04-01 17:21:07 - [MESSAGE][PASSED] - Object: 'Object Repository/IE_HOME_Page_Object/OpenLink' is clicked on
+
+2019-04-01 17:21:07 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2019-04-01 17:21:07 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2019-04-01 17:21:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("IE_HOME_Page_Object/IE_HomePage_Text"), Timeout): Object 'Object Repository/IE_HOME_Page_Object/IE_HomePage_Text' is present
+
+2019-04-01 17:21:10 - [MESSAGE][PASSED] - Object 'Object Repository/IE_HOME_Page_Object/IE_HomePage_Text' is present
+
+2019-04-01 17:21:10 - [TEST_STEP][PASSED] - Text = getText(findTestObject("IE_HOME_Page_Object/IE_HomePage_Text")): Text of object 'Object Repository/IE_HOME_Page_Object/IE_HomePage_Text' is: 'WALMART'
+
+2019-04-01 17:21:10 - [MESSAGE][PASSED] - Text of object 'Object Repository/IE_HOME_Page_Object/IE_HomePage_Text' is: 'WALMART'
+
+2019-04-01 17:21:10 - [TEST_STEP][PASSED] - println("IE Home page is displayed by verifying the text :" + Text): null
+
+2019-04-01 17:21:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CoraHomePage/NavigateTO_IE_HOME' successfully
+
+2019-04-01 17:21:10 - [TEST_STEP][PASSED] - getAllDetails_IE_HomePage.IE_Homepage_Detail.verifySwitchTabonIEHOME("Match & Reconcile"): getAllDetails_IE_HomePage.IE_Homepage_Detail.verifySwitchTabonIEHOME is PASSED
+
+2019-04-01 17:21:10 - [MESSAGE][PASSED] - getAllDetails_IE_HomePage.IE_Homepage_Detail.verifySwitchTabonIEHOME is PASSED
+
+2019-04-01 17:21:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CoraHomePage/Verify_SwitchBetweenTabOnIEHOME' successfully
+
+2019-04-01 17:21:10 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("MatchAndReconcile_Page_Object/HeaderOfMatchAndReconcile"), Timeout): Object 'Object Repository/MatchAndReconcile_Page_Object/HeaderOfMatchAndReconcile' is present
+
+2019-04-01 17:21:12 - [MESSAGE][PASSED] - Object 'Object Repository/MatchAndReconcile_Page_Object/HeaderOfMatchAndReconcile' is present
+
+2019-04-01 17:21:12 - [TEST_STEP][PASSED] - elements = getText(findTestObject("MatchAndReconcile_Page_Object/HeaderOfMatchAndReconcile")): Text of object 'Object Repository/MatchAndReconcile_Page_Object/HeaderOfMatchAndReconcile' is: 'Match And Reconcile Details
+Search for Receiver/s
+Add Invoice'
+
+2019-04-01 17:21:13 - [MESSAGE][PASSED] - Text of object 'Object Repository/MatchAndReconcile_Page_Object/HeaderOfMatchAndReconcile' is: 'Match And Reconcile Details
+Search for Receiver/s
+Add Invoice'
+
+2019-04-01 17:21:13 - [TEST_STEP][PASSED] - println(elements): null
+
+2019-04-01 17:21:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-01 17:21:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-01 17:21:15 - [TEST_STEP][PASSED] - getAllDetails_IE_HomePage.Match_Reconcile_Detail.getDetailsofReconHeader(): getAllDetails_IE_HomePage.Match_Reconcile_Detail.getDetailsofReconHeader is PASSED
+
+2019-04-01 17:21:15 - [MESSAGE][PASSED] - getAllDetails_IE_HomePage.Match_Reconcile_Detail.getDetailsofReconHeader is PASSED
+
+2019-04-01 17:21:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-01 17:21:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-01 17:21:17 - [TEST_STEP][PASSED] - getAllDetails_IE_HomePage.Match_Reconcile_Detail.getDetailsofReceiverHeader(): getAllDetails_IE_HomePage.Match_Reconcile_Detail.getDetailsofReceiverHeader is PASSED
+
+2019-04-01 17:21:18 - [MESSAGE][PASSED] - getAllDetails_IE_HomePage.Match_Reconcile_Detail.getDetailsofReceiverHeader is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-01 17:19:15 - [TEST_SUITE][PASSED] - IE_HOMEPAGE_TestSuite: Test Cases/VerifyDetailsofMatchAndReconcile]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

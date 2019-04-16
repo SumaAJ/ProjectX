@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="IE_MatchAndReconcile" time="62" tests="0" failures="1" errors="0">
+   <testsuite name="IE_MatchAndReconcile" tests="0" failures="1" errors="0" time="62" timestamp="2019-04-03 10:45:39" hostname="vn50b7u - DW5AXDEVOS175.corp.dom" id="Test Suites/SmokeTestSuite/IE_MatchAndReconcile">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\vn50b7u\\Katalon Studio\\Demo\\Reports\\SmokeTestSuite\\IE_MatchAndReconcile\\20190403_104306"/>
+         <property name="logFiles" value="C:\\Users\\vn50b7u\\Katalon Studio\\Demo\\Reports\\SmokeTestSuite\\IE_MatchAndReconcile\\20190403_104306\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\vn50b7u\\Katalon Studio\\Demo\\Reports\\SmokeTestSuite\\IE_MatchAndReconcile\\20190403_104306\\1554268599588.png"/>
+         <property name="hostName" value="vn50b7u - DW5AXDEVOS175.corp.dom"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="Chrome 72.0.3626.121"/>
+         <property name="hostAddress" value="10.96.245.244"/>
+         <property name="sessionId" value="9e4709392c735f307bf350e2b2e32b04"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/MatchAndReconcilePageTestCase/TC010_VerifyDetailsofMatchAndReconcile" classname="Test Cases/MatchAndReconcilePageTestCase/TC010_VerifyDetailsofMatchAndReconcile" status="FAILED">
+         <failure type="FAILED" message="Test Cases/MatchAndReconcilePageTestCase/TC010_VerifyDetailsofMatchAndReconcile FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/IE_Home_MatchAndReconcile_Page/HeaderOfMatchAndReconcile'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$7.call(Unknown Source)
+	at TC010_VerifyDetailsofMatchAndReconcile.run(TC010_VerifyDetailsofMatchAndReconcile:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554268386302.run(TempTestSuite1554268386302.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/IE_Home_MatchAndReconcile_Page/HeaderOfMatchAndReconcile' located by 'By.xpath: (//ul[@class='rtsUL'])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$7.call(Unknown Source)
+	at Script1554198865338.run(Script1554198865338.groovy:20)
+	... 13 more
+"/>
+         <system-out><![CDATA[2019-04-03 10:45:41 - [TEST_CASE][FAILED] - Test Cases/MatchAndReconcilePageTestCase/TC010_VerifyDetailsofMatchAndReconcile: Test Cases/MatchAndReconcilePageTestCase/TC010_VerifyDetailsofMatchAndReconcile FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/IE_Home_MatchAndReconcile_Page/HeaderOfMatchAndReconcile'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$7.call(Unknown Source)
+	at TC010_VerifyDetailsofMatchAndReconcile.run(TC010_VerifyDetailsofMatchAndReconcile:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554268386302.run(TempTestSuite1554268386302.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/IE_Home_MatchAndReconcile_Page/HeaderOfMatchAndReconcile' located by 'By.xpath: (//ul[@class='rtsUL'])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$7.call(Unknown Source)
+	at Script1554198865338.run(Script1554198865338.groovy:20)
+	... 13 more
+
+
+2019-04-03 10:45:41 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-04-03 10:45:41 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-04-03 10:45:41 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2019-04-03 10:45:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("IEHomePageTestCase/TC003_ValidateSwitchBetweenTabOnIEHOME"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/IEHomePageTestCase/TC003_ValidateSwitchBetweenTabOnIEHOME' successfully
+
+2019-04-03 10:45:41 - [TEST_CASE][PASSED] - Test Cases/IEHomePageTestCase/TC003_ValidateSwitchBetweenTabOnIEHOME: Test Cases/IEHomePageTestCase/TC003_ValidateSwitchBetweenTabOnIEHOME
+
+2019-04-03 10:45:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("IEHomePageTestCase/TC005_NavigateTO_IE_HOME - Copy"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/IEHomePageTestCase/TC005_NavigateTO_IE_HOME - Copy' successfully
+
+2019-04-03 10:45:42 - [TEST_CASE][PASSED] - Test Cases/IEHomePageTestCase/TC005_NavigateTO_IE_HOME - Copy: Test Cases/IEHomePageTestCase/TC005_NavigateTO_IE_HOME - Copy
+
+2019-04-03 10:45:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CommonTestCase/TC001_OpenBrowserForStore"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/CommonTestCase/TC001_OpenBrowserForStore' successfully
+
+2019-04-03 10:45:43 - [TEST_CASE][PASSED] - Test Cases/CommonTestCase/TC001_OpenBrowserForStore: Test Cases/CommonTestCase/TC001_OpenBrowserForStore
+
+2019-04-03 10:45:43 - [TEST_STEP][PASSED] - getAllDetails_IE_HomePage.CommonTestcaseToOpenBrowser.lunchApplication(): getAllDetails_IE_HomePage.CommonTestcaseToOpenBrowser.lunchApplication is PASSED
+
+2019-04-03 10:45:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-03 10:45:43 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-03 10:45:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-03 10:45:54 - [MESSAGE][PASSED] - Navigate to 'http://hazr0240ada942.cloud.wal-mart.com' successfully
+
+2019-04-03 10:45:54 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-03 10:45:55 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-03 10:45:56 - [MESSAGE][PASSED] - Object 'Object Repository/IE_Home_Page/Logo' is visible
+
+2019-04-03 10:45:56 - [MESSAGE][PASSED] - getAllDetails_IE_HomePage.CommonTestcaseToOpenBrowser.lunchApplication is PASSED
+
+2019-04-03 10:45:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonTestCase/TC001_OpenBrowserForStore' successfully
+
+2019-04-03 10:45:56 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("IE_Home_Page/HOT_Operation"), Timeout): Object 'Object Repository/IE_Home_Page/HOT_Operation' is present
+
+2019-04-03 10:45:56 - [MESSAGE][PASSED] - Object 'Object Repository/IE_Home_Page/HOT_Operation' is present
+
+2019-04-03 10:45:56 - [TEST_STEP][PASSED] - click(findTestObject("IE_Home_Page/HOT_Operation")): Object: 'Object Repository/IE_Home_Page/HOT_Operation' is clicked on
+
+2019-04-03 10:45:58 - [MESSAGE][PASSED] - Object: 'Object Repository/IE_Home_Page/HOT_Operation' is clicked on
+
+2019-04-03 10:45:58 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("IE_Home_Page/TaskList"), Timeout): Object 'Object Repository/IE_Home_Page/TaskList' is present
+
+2019-04-03 10:45:58 - [MESSAGE][PASSED] - Object 'Object Repository/IE_Home_Page/TaskList' is present
+
+2019-04-03 10:45:58 - [TEST_STEP][PASSED] - click(findTestObject("IE_Home_Page/TaskList")): Object: 'Object Repository/IE_Home_Page/TaskList' is clicked on
+
+2019-04-03 10:46:00 - [MESSAGE][PASSED] - Object: 'Object Repository/IE_Home_Page/TaskList' is clicked on
+
+2019-04-03 10:46:00 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("IE_Home_Page/CaseID"), 5): Scroll to object 'Object Repository/IE_Home_Page/CaseID' successfully
+
+2019-04-03 10:46:03 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IE_Home_Page/CaseID' successfully
+
+2019-04-03 10:46:03 - [TEST_STEP][PASSED] - caseID = getText(findTestObject("IE_Home_Page/CaseID")): Text of object 'Object Repository/IE_Home_Page/CaseID' is: '1634'
+
+2019-04-03 10:46:03 - [MESSAGE][PASSED] - Text of object 'Object Repository/IE_Home_Page/CaseID' is: '1634'
+
+2019-04-03 10:46:03 - [TEST_STEP][PASSED] - getAllDetails_IE_HomePage.PrintStatement.getTextofElement(caseID): getAllDetails_IE_HomePage.PrintStatement.getTextofElement is PASSED
+
+2019-04-03 10:46:03 - [MESSAGE][PASSED] - getAllDetails_IE_HomePage.PrintStatement.getTextofElement is PASSED
+
+2019-04-03 10:46:03 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("IE_Home_Page/Open"), Timeout): Object 'Object Repository/IE_Home_Page/Open' is present
+
+2019-04-03 10:46:03 - [MESSAGE][PASSED] - Object 'Object Repository/IE_Home_Page/Open' is present
+
+2019-04-03 10:46:03 - [TEST_STEP][PASSED] - click(findTestObject("IE_Home_Page/Open")): Object: 'Object Repository/IE_Home_Page/Open' is clicked on
+
+2019-04-03 10:46:04 - [MESSAGE][PASSED] - Object: 'Object Repository/IE_Home_Page/Open' is clicked on
+
+2019-04-03 10:46:04 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2019-04-03 10:46:04 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2019-04-03 10:46:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("IE_Home_Page/IE_HomePage_Text"), Timeout): Object 'Object Repository/IE_Home_Page/IE_HomePage_Text' is present
+
+2019-04-03 10:46:05 - [MESSAGE][PASSED] - Object 'Object Repository/IE_Home_Page/IE_HomePage_Text' is present
+
+2019-04-03 10:46:05 - [TEST_STEP][PASSED] - textOFWalmart = getText(findTestObject("IE_Home_Page/IE_HomePage_Text")): Text of object 'Object Repository/IE_Home_Page/IE_HomePage_Text' is: 'WALMART'
+
+2019-04-03 10:46:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/IE_Home_Page/IE_HomePage_Text' is: 'WALMART'
+
+2019-04-03 10:46:05 - [TEST_STEP][PASSED] - getAllDetails_IE_HomePage.PrintStatement.getTextofElement(textOFWalmart): getAllDetails_IE_HomePage.PrintStatement.getTextofElement is PASSED
+
+2019-04-03 10:46:05 - [MESSAGE][PASSED] - getAllDetails_IE_HomePage.PrintStatement.getTextofElement is PASSED
+
+2019-04-03 10:46:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/IEHomePageTestCase/TC005_NavigateTO_IE_HOME - Copy' successfully
+
+2019-04-03 10:46:05 - [TEST_STEP][PASSED] - getAllDetails_IE_HomePage.IE_Homepage_Detail.verifySwitchTabonIEHOME("Match & Reconcile"): getAllDetails_IE_HomePage.IE_Homepage_Detail.verifySwitchTabonIEHOME is PASSED
+
+2019-04-03 10:46:06 - [MESSAGE][PASSED] - getAllDetails_IE_HomePage.IE_Homepage_Detail.verifySwitchTabonIEHOME is PASSED
+
+2019-04-03 10:46:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/IEHomePageTestCase/TC003_ValidateSwitchBetweenTabOnIEHOME' successfully
+
+2019-04-03 10:46:06 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("IE_Home_MatchAndReconcile_Page/HeaderOfMatchAndReconcile"), Timeout): Object 'Object Repository/IE_Home_MatchAndReconcile_Page/HeaderOfMatchAndReconcile' is not present after 2 second(s)
+
+2019-04-03 10:46:08 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//ul[@class='rtsUL'])[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-04-03 10:46:08 - [MESSAGE][WARNING] - Object 'Object Repository/IE_Home_MatchAndReconcile_Page/HeaderOfMatchAndReconcile' is not present after 2 second(s)
+
+2019-04-03 10:46:08 - [TEST_STEP][FAILED] - elements = getText(findTestObject("IE_Home_MatchAndReconcile_Page/HeaderOfMatchAndReconcile")): elements = getText(findTestObject("IE_Home_MatchAndReconcile_Page/HeaderOfMatchAndReconcile")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/IE_Home_MatchAndReconcile_Page/HeaderOfMatchAndReconcile'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$7.call(Unknown Source)
+	at TC010_VerifyDetailsofMatchAndReconcile.run(TC010_VerifyDetailsofMatchAndReconcile:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554268386302.run(TempTestSuite1554268386302.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/IE_Home_MatchAndReconcile_Page/HeaderOfMatchAndReconcile' located by 'By.xpath: (//ul[@class='rtsUL'])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$7.call(Unknown Source)
+	at Script1554198865338.run(Script1554198865338.groovy:20)
+	... 13 more
+
+
+2019-04-03 10:46:39 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//ul[@class='rtsUL'])[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-04-03 10:46:40 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/IE_Home_MatchAndReconcile_Page/HeaderOfMatchAndReconcile' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/IE_Home_MatchAndReconcile_Page/HeaderOfMatchAndReconcile'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$7.call(Unknown Source)
+	at TC010_VerifyDetailsofMatchAndReconcile.run(TC010_VerifyDetailsofMatchAndReconcile:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554268386302.run(TempTestSuite1554268386302.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/IE_Home_MatchAndReconcile_Page/HeaderOfMatchAndReconcile' located by 'By.xpath: (//ul[@class='rtsUL'])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$7.call(Unknown Source)
+	at Script1554198865338.run(Script1554198865338.groovy:20)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\vn50b7u\\Katalon Studio\\Demo\\Reports\\SmokeTestSuite\\IE_MatchAndReconcile\\20190403_104306\\1554268599588.png]]
+
+2019-04-03 10:46:40 - [MESSAGE][FAILED] - elements = getText(findTestObject("IE_Home_MatchAndReconcile_Page/HeaderOfMatchAndReconcile")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/IE_Home_MatchAndReconcile_Page/HeaderOfMatchAndReconcile'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$7.call(Unknown Source)
+	at TC010_VerifyDetailsofMatchAndReconcile.run(TC010_VerifyDetailsofMatchAndReconcile:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554268386302.run(TempTestSuite1554268386302.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/IE_Home_MatchAndReconcile_Page/HeaderOfMatchAndReconcile' located by 'By.xpath: (//ul[@class='rtsUL'])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$7.call(Unknown Source)
+	at Script1554198865338.run(Script1554198865338.groovy:20)
+	... 13 more
+
+
+2019-04-03 10:46:40 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-04-03 10:46:40 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-04-03 10:46:40 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[2019-04-03 10:45:41 - [TEST_CASE][FAILED] - Test Cases/MatchAndReconcilePageTestCase/TC010_VerifyDetailsofMatchAndReconcile: Test Cases/MatchAndReconcilePageTestCase/TC010_VerifyDetailsofMatchAndReconcile FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/IE_Home_MatchAndReconcile_Page/HeaderOfMatchAndReconcile'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$7.call(Unknown Source)
+	at TC010_VerifyDetailsofMatchAndReconcile.run(TC010_VerifyDetailsofMatchAndReconcile:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554268386302.run(TempTestSuite1554268386302.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/IE_Home_MatchAndReconcile_Page/HeaderOfMatchAndReconcile' located by 'By.xpath: (//ul[@class='rtsUL'])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$7.call(Unknown Source)
+	at Script1554198865338.run(Script1554198865338.groovy:20)
+	... 13 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-03 10:45:39 - [TEST_SUITE][FAILED] - IE_MatchAndReconcile: Test Cases/MatchAndReconcilePageTestCase/TC010_VerifyDetailsofMatchAndReconcile FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/IE_Home_MatchAndReconcile_Page/HeaderOfMatchAndReconcile'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$7.call(Unknown Source)
+	at TC010_VerifyDetailsofMatchAndReconcile.run(TC010_VerifyDetailsofMatchAndReconcile:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554268386302.run(TempTestSuite1554268386302.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/IE_Home_MatchAndReconcile_Page/HeaderOfMatchAndReconcile' located by 'By.xpath: (//ul[@class='rtsUL'])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$7.call(Unknown Source)
+	at Script1554198865338.run(Script1554198865338.groovy:20)
+	... 13 more]]></system-out>
+      <system-err><![CDATA[2019-04-03 10:45:39 - [TEST_SUITE][FAILED] - IE_MatchAndReconcile: Test Cases/MatchAndReconcilePageTestCase/TC010_VerifyDetailsofMatchAndReconcile FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/IE_Home_MatchAndReconcile_Page/HeaderOfMatchAndReconcile'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$7.call(Unknown Source)
+	at TC010_VerifyDetailsofMatchAndReconcile.run(TC010_VerifyDetailsofMatchAndReconcile:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554268386302.run(TempTestSuite1554268386302.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/IE_Home_MatchAndReconcile_Page/HeaderOfMatchAndReconcile' located by 'By.xpath: (//ul[@class='rtsUL'])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$7.call(Unknown Source)
+	at Script1554198865338.run(Script1554198865338.groovy:20)
+	... 13 more]]></system-err>
+   </testsuite>
+</testsuites>

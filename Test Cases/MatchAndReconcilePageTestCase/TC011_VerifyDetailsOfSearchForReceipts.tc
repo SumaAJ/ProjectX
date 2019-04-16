@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC011_VerifyDetailsOfSearchForReceipts</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ec2f36dd-797d-4a8e-a94a-f5cbd2261e5f</testCaseGuid>
+</TestCaseEntity>

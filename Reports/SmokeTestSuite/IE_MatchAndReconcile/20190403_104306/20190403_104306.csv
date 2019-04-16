@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+IE_MatchAndReconcile,Chrome 72.0.3626.121,,2019-04-03 10:45:39,2019-04-03 10:46:42,1m - 2.165s,FAILED
+,,,,,,
+Test Cases/MatchAndReconcilePageTestCase/TC010_VerifyDetailsofMatchAndReconcile,Chrome 72.0.3626.121,,2019-04-03 10:45:41,2019-04-03 10:46:40,59.100s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 72.0.3626.121,,2019-04-03 10:45:41,2019-04-03 10:45:41,0.029s,PASSED
+"callTestCase(findTestCase(""IEHomePageTestCase/TC003_ValidateSwitchBetweenTabOnIEHOME""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-04-03 10:45:41,2019-04-03 10:46:06,24.674s,PASSED
+"waitForElementPresent(findTestObject(""IE_Home_MatchAndReconcile_Page/HeaderOfMatchAndReconcile""), Timeout)",Chrome 72.0.3626.121,,2019-04-03 10:46:06,2019-04-03 10:46:08,2.128s,PASSED
+"elements = getText(findTestObject(""IE_Home_MatchAndReconcile_Page/HeaderOfMatchAndReconcile""))",Chrome 72.0.3626.121,,2019-04-03 10:46:08,2019-04-03 10:46:40,31.524s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 72.0.3626.121,,2019-04-03 10:46:40,2019-04-03 10:46:40,0.085s,PASSED

@@ -1,0 +1,42 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+IE_HOMEPAGE_TestSuite,Chrome 72.0.3626.121,,2019-04-01 17:19:15,2019-04-01 17:21:19,2m - 4.826s,PASSED
+,,,,,,
+Test Cases/CoraHomePage/NavigateTO_IE_HOME,Chrome 72.0.3626.121,,2019-04-01 17:19:15,2019-04-01 17:19:38,22.591s,PASSED
+"callTestCase(findTestCase(""Common_TestCase/OpenBrowserNavigateToURL""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-04-01 17:19:16,2019-04-01 17:19:27,11.267s,PASSED
+"waitForElementPresent(findTestObject(""IE_HOME_Page_Object/HOT_Operation""), Timeout)",Chrome 72.0.3626.121,,2019-04-01 17:19:27,2019-04-01 17:19:28,0.691s,PASSED
+"click(findTestObject(""IE_HOME_Page_Object/HOT_Operation""))",Chrome 72.0.3626.121,,2019-04-01 17:19:28,2019-04-01 17:19:30,1.919s,PASSED
+"waitForElementPresent(findTestObject(""IE_HOME_Page_Object/TaskList""), Timeout)",Chrome 72.0.3626.121,,2019-04-01 17:19:30,2019-04-01 17:19:30,0.128s,PASSED
+"click(findTestObject(""IE_HOME_Page_Object/TaskList""))",Chrome 72.0.3626.121,,2019-04-01 17:19:30,2019-04-01 17:19:32,1.617s,PASSED
+"waitForElementPresent(findTestObject(""IE_HOME_Page_Object/OpenLink""), Timeout)",Chrome 72.0.3626.121,,2019-04-01 17:19:32,2019-04-01 17:19:34,2.664s,PASSED
+"click(findTestObject(""IE_HOME_Page_Object/OpenLink""))",Chrome 72.0.3626.121,,2019-04-01 17:19:34,2019-04-01 17:19:35,0.949s,PASSED
+switchToWindowIndex(1),Chrome 72.0.3626.121,,2019-04-01 17:19:35,2019-04-01 17:19:36,0.087s,PASSED
+"verifyElementPresent(findTestObject(""IE_HOME_Page_Object/IE_HomePage_Text""), Timeout)",Chrome 72.0.3626.121,,2019-04-01 17:19:36,2019-04-01 17:19:38,2.223s,PASSED
+"Text = getText(findTestObject(""IE_HOME_Page_Object/IE_HomePage_Text""))",Chrome 72.0.3626.121,,2019-04-01 17:19:38,2019-04-01 17:19:38,0.180s,PASSED
+"println(""IE Home page is displayed by verifying the text :"" + Text)",Chrome 72.0.3626.121,,2019-04-01 17:19:38,2019-04-01 17:19:38,0.004s,PASSED
+,,,,,,
+Test Cases/CoraHomePage/IE_HOME_ShowMoreDetail,Chrome 72.0.3626.121,,2019-04-01 17:19:38,2019-04-01 17:20:00,22.033s,PASSED
+"callTestCase(findTestCase(""CoraHomePage/NavigateTO_IE_HOME""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-04-01 17:19:39,2019-04-01 17:19:57,17.785s,PASSED
+"waitForElementPresent(findTestObject(""IE_Home_ShowMoreDetail/ShowMoreDetails""), Timeout)",Chrome 72.0.3626.121,,2019-04-01 17:19:57,2019-04-01 17:19:57,0.094s,PASSED
+"click(findTestObject(""IE_Home_ShowMoreDetail/ShowMoreDetails""))",Chrome 72.0.3626.121,,2019-04-01 17:19:57,2019-04-01 17:19:57,0.565s,PASSED
+getAllDetails_IE_HomePage.IE_Homepage_Detail.getDetails(),Chrome 72.0.3626.121,,2019-04-01 17:19:57,2019-04-01 17:19:58,0.485s,PASSED
+delay(2),Chrome 72.0.3626.121,,2019-04-01 17:19:58,2019-04-01 17:20:00,2.020s,PASSED
+"scrollToElement(findTestObject(""IE_Home_ShowMoreDetail/ShowLessDetail""), Timeout)",Chrome 72.0.3626.121,,2019-04-01 17:20:00,2019-04-01 17:20:00,0.133s,PASSED
+"getText(findTestObject(""IE_Home_ShowMoreDetail/ShowLessDetail""))",Chrome 72.0.3626.121,,2019-04-01 17:20:00,2019-04-01 17:20:00,0.102s,PASSED
+,,,,,,
+Test Cases/CoraHomePage/IE_Home_HistoryDetails,Chrome 72.0.3626.121,,2019-04-01 17:20:00,2019-04-01 17:20:23,22.940s,PASSED
+"callTestCase(findTestCase(""CoraHomePage/NavigateTO_IE_HOME""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-04-01 17:20:01,2019-04-01 17:20:21,20.394s,PASSED
+getAllDetails_IE_HomePage.IE_Homepage_Detail.getDetailofHistory(),Chrome 72.0.3626.121,,2019-04-01 17:20:21,2019-04-01 17:20:23,1.562s,PASSED
+,,,,,,
+Test Cases/CoraHomePage/Verify_SwitchBetweenTabOnIEHOME,Chrome 72.0.3626.121,,2019-04-01 17:20:23,2019-04-01 17:20:43,20.396s,PASSED
+"callTestCase(findTestCase(""CoraHomePage/NavigateTO_IE_HOME""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-04-01 17:20:23,2019-04-01 17:20:41,17.141s,PASSED
+"getAllDetails_IE_HomePage.IE_Homepage_Detail.verifySwitchTabonIEHOME(""Match & Reconcile"")",Chrome 72.0.3626.121,,2019-04-01 17:20:41,2019-04-01 17:20:43,2.765s,PASSED
+,,,,,,
+Test Cases/VerifyDetailsofMatchAndReconcile,Chrome 72.0.3626.121,,2019-04-01 17:20:43,2019-04-01 17:21:18,34.342s,PASSED
+"callTestCase(findTestCase(""CoraHomePage/Verify_SwitchBetweenTabOnIEHOME""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-04-01 17:20:44,2019-04-01 17:21:10,26.031s,PASSED
+"waitForElementPresent(findTestObject(""MatchAndReconcile_Page_Object/HeaderOfMatchAndReconcile""), Timeout)",Chrome 72.0.3626.121,,2019-04-01 17:21:10,2019-04-01 17:21:12,2.258s,PASSED
+"elements = getText(findTestObject(""MatchAndReconcile_Page_Object/HeaderOfMatchAndReconcile""))",Chrome 72.0.3626.121,,2019-04-01 17:21:12,2019-04-01 17:21:13,0.062s,PASSED
+println(elements),Chrome 72.0.3626.121,,2019-04-01 17:21:13,2019-04-01 17:21:13,0.000s,PASSED
+delay(2),Chrome 72.0.3626.121,,2019-04-01 17:21:13,2019-04-01 17:21:15,2.017s,PASSED
+getAllDetails_IE_HomePage.Match_Reconcile_Detail.getDetailsofReconHeader(),Chrome 72.0.3626.121,,2019-04-01 17:21:15,2019-04-01 17:21:15,0.528s,PASSED
+delay(2),Chrome 72.0.3626.121,,2019-04-01 17:21:15,2019-04-01 17:21:17,2.002s,PASSED
+getAllDetails_IE_HomePage.Match_Reconcile_Detail.getDetailsofReceiverHeader(),Chrome 72.0.3626.121,,2019-04-01 17:21:17,2019-04-01 17:21:18,0.590s,PASSED

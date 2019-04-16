@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+IE_MatchAndReconcile,Chrome 72.0.3626.121,,2019-04-10 14:51:25,2019-04-10 14:52:36,1m - 10.873s,PASSED
+,,,,,,
+Test Cases/MatchAndReconcilePageTestCase/TC010_VerifyDetailsofMatchAndReconcile,Chrome 72.0.3626.121,,2019-04-10 14:51:27,2019-04-10 14:52:04,36.739s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 72.0.3626.121,,2019-04-10 14:51:28,2019-04-10 14:51:28,0.047s,PASSED
+"callTestCase(findTestCase(""IEHomePageTestCase/TC003_ValidateSwitchBetweenTabOnIEHOME""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-04-10 14:51:29,2019-04-10 14:51:57,28.000s,PASSED
+"waitForElementPresent(findTestObject(""IE_Home_MatchAndReconcile_Page/HeaderOfMatchAndReconcile""), Timeout)",Chrome 72.0.3626.121,,2019-04-10 14:51:57,2019-04-10 14:51:57,0.075s,PASSED
+"elements = getText(findTestObject(""IE_Home_MatchAndReconcile_Page/HeaderOfMatchAndReconcile""))",Chrome 72.0.3626.121,,2019-04-10 14:51:57,2019-04-10 14:51:57,0.152s,PASSED
+getAllDetails_IE_HomePage.PrintStatement.getTextofElement(elements),Chrome 72.0.3626.121,,2019-04-10 14:51:57,2019-04-10 14:51:57,0.002s,PASSED
+delay(Timeout_MinDelay),Chrome 72.0.3626.121,,2019-04-10 14:51:57,2019-04-10 14:51:59,2.027s,PASSED
+getAllDetails_IE_HomePage.Match_Reconcile_Detail.getHeaderDetailsOfMatchAndReconcile(),Chrome 72.0.3626.121,,2019-04-10 14:51:59,2019-04-10 14:51:59,0.072s,PASSED
+getAllDetails_IE_HomePage.Match_Reconcile_Detail.getlistofReconHeader(),Chrome 72.0.3626.121,,2019-04-10 14:51:59,2019-04-10 14:51:59,0.081s,PASSED
+getAllDetails_IE_HomePage.Match_Reconcile_Detail.getDetailsofReconHeader(),Chrome 72.0.3626.121,,2019-04-10 14:51:59,2019-04-10 14:52:00,0.492s,PASSED
+delay(Timeout_MinDelay),Chrome 72.0.3626.121,,2019-04-10 14:52:00,2019-04-10 14:52:02,2.004s,PASSED
+getAllDetails_IE_HomePage.Match_Reconcile_Detail.getDetailsofReceiverHeader(),Chrome 72.0.3626.121,,2019-04-10 14:52:02,2019-04-10 14:52:02,0.614s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 72.0.3626.121,,2019-04-10 14:52:02,2019-04-10 14:52:04,1.861s,PASSED
+,,,,,,
+Test Cases/MatchAndReconcilePageTestCase/TC011_VerifyDetailsOfSearchForReceipts,Chrome 72.0.3626.121,,2019-04-10 14:52:04,2019-04-10 14:52:36,32.240s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 72.0.3626.121,,2019-04-10 14:52:04,2019-04-10 14:52:04,0.004s,PASSED
+"callTestCase(findTestCase(""IEHomePageTestCase/TC003_ValidateSwitchBetweenTabOnIEHOME""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-04-10 14:52:05,2019-04-10 14:52:26,21.213s,PASSED
+"waitForElementPresent(findTestObject(""IE_Home_MatchAndReconcile_Page/SearchForReceiver""), Timeout_MinDelay)",Chrome 72.0.3626.121,,2019-04-10 14:52:26,2019-04-10 14:52:26,0.591s,PASSED
+"click(findTestObject(""IE_Home_MatchAndReconcile_Page/SearchForReceiver""))",Chrome 72.0.3626.121,,2019-04-10 14:52:26,2019-04-10 14:52:28,1.306s,PASSED
+delay(Timeout_MinDelay),Chrome 72.0.3626.121,,2019-04-10 14:52:28,2019-04-10 14:52:30,2.005s,PASSED
+indexOfRecommended = getWindowIndex(STOP_ON_FAILURE),Chrome 72.0.3626.121,,2019-04-10 14:52:30,2019-04-10 14:52:30,0.055s,PASSED
+getAllDetails_IE_HomePage.PrintStatement.getTextofElement(indexOfRecommended.toString()),Chrome 72.0.3626.121,,2019-04-10 14:52:30,2019-04-10 14:52:30,0.005s,PASSED
+titleOfRecommended = getWindowTitle(),Chrome 72.0.3626.121,,2019-04-10 14:52:30,2019-04-10 14:52:30,0.050s,PASSED
+getAllDetails_IE_HomePage.PrintStatement.getTextofElement(titleOfRecommended),Chrome 72.0.3626.121,,2019-04-10 14:52:30,2019-04-10 14:52:30,0.005s,PASSED
+delay(Timeout_MinDelay),Chrome 72.0.3626.121,,2019-04-10 14:52:30,2019-04-10 14:52:32,2.004s,PASSED
+"switchToFrame(findTestObject(""SearchForReceiver_Page/SearchforReceiver_Frame""), Timeout_MinDelay)",Chrome 72.0.3626.121,,2019-04-10 14:52:32,2019-04-10 14:52:32,0.120s,PASSED
+"waitForElementPresent(findTestObject(""SearchForReceiver_Page/Missing_UPC""), Timeout_MinDelay)",Chrome 72.0.3626.121,,2019-04-10 14:52:32,2019-04-10 14:52:32,0.041s,PASSED
+"click(findTestObject(""SearchForReceiver_Page/Missing_UPC""))",Chrome 72.0.3626.121,,2019-04-10 14:52:32,2019-04-10 14:52:32,0.195s,PASSED
+delay(Timeout_MinDelay),Chrome 72.0.3626.121,,2019-04-10 14:52:32,2019-04-10 14:52:34,2.003s,PASSED
+switchToDefaultContent(),Chrome 72.0.3626.121,,2019-04-10 14:52:34,2019-04-10 14:52:34,0.054s,PASSED
+"waitForElementVisible(findTestObject(""SearchForReceiver_Page/Close_Button""), Timeout)",Chrome 72.0.3626.121,,2019-04-10 14:52:34,2019-04-10 14:52:34,0.079s,PASSED
+"click(findTestObject(""SearchForReceiver_Page/Close_Button""))",Chrome 72.0.3626.121,,2019-04-10 14:52:34,2019-04-10 14:52:34,0.176s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 72.0.3626.121,,2019-04-10 14:52:34,2019-04-10 14:52:36,1.821s,PASSED

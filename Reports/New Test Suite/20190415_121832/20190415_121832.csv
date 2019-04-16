@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,Chrome 72.0.3626.121,,2019-04-15 12:19:05,2019-04-15 12:22:59,3m - 54.435s,FAILED
+,,,,,,
+Test Cases/IEHomePageTestCase/TC003_ValidateSwitchBetweenTabOnIEHOME,Chrome 72.0.3626.121,,2019-04-15 12:19:11,2019-04-15 12:20:45,1m - 34.325s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 72.0.3626.121,,2019-04-15 12:19:11,2019-04-15 12:19:11,0.225s,PASSED
+"callTestCase(findTestCase(""IEHomePageTestCase/TC005_NavigateTO_IE_HOME - Copy""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-04-15 12:19:13,2019-04-15 12:20:45,1m - 31.621s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 72.0.3626.121,,2019-04-15 12:20:45,2019-04-15 12:20:45,0.024s,PASSED
+,,,,,,
+Test Cases/IEHomePageTestCase/TC005_NavigateTO_IE_HOME - Copy,Chrome 72.0.3626.121,,2019-04-15 12:20:45,2019-04-15 12:22:51,2m - 5.532s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 72.0.3626.121,,2019-04-15 12:20:45,2019-04-15 12:20:45,0.009s,PASSED
+"callTestCase(findTestCase(""CommonTestCase/TC001_OpenBrowserForStore""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-04-15 12:20:45,2019-04-15 12:22:51,2m - 5.431s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 72.0.3626.121,,2019-04-15 12:22:51,2019-04-15 12:22:51,0.003s,PASSED

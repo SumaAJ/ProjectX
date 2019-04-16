@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="IE_MatchAndReconcile" time="35" tests="1" failures="0" errors="0">
+   <testsuite name="IE_MatchAndReconcile" tests="1" failures="0" errors="0" time="35" timestamp="2019-04-05 15:16:24" hostname="vn50b7u - DW5AXDEVOS175.corp.dom" id="Test Suites/SmokeTestSuite/IE_MatchAndReconcile">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\vn50b7u\\Katalon Studio\\Demo\\Reports\\SmokeTestSuite\\IE_MatchAndReconcile\\20190405_151221"/>
+         <property name="logFiles" value="C:\\Users\\vn50b7u\\Katalon Studio\\Demo\\Reports\\SmokeTestSuite\\IE_MatchAndReconcile\\20190405_151221\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="vn50b7u - DW5AXDEVOS175.corp.dom"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="Chrome 72.0.3626.121"/>
+         <property name="hostAddress" value="10.96.245.244"/>
+         <property name="sessionId" value="66fce4b91e199dc86fc5828869ab75bf"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/MatchAndReconcilePageTestCase/TC010_VerifyDetailsofMatchAndReconcile" classname="Test Cases/MatchAndReconcilePageTestCase/TC010_VerifyDetailsofMatchAndReconcile" status="PASSED">
+         <system-out><![CDATA[2019-04-05 15:16:26 - [TEST_CASE][PASSED] - Test Cases/MatchAndReconcilePageTestCase/TC010_VerifyDetailsofMatchAndReconcile: Test Cases/MatchAndReconcilePageTestCase/TC010_VerifyDetailsofMatchAndReconcile
+
+2019-04-05 15:16:26 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-04-05 15:16:26 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-04-05 15:16:26 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2019-04-05 15:16:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("IEHomePageTestCase/TC003_ValidateSwitchBetweenTabOnIEHOME"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/IEHomePageTestCase/TC003_ValidateSwitchBetweenTabOnIEHOME' successfully
+
+2019-04-05 15:16:27 - [TEST_CASE][PASSED] - Test Cases/IEHomePageTestCase/TC003_ValidateSwitchBetweenTabOnIEHOME: Test Cases/IEHomePageTestCase/TC003_ValidateSwitchBetweenTabOnIEHOME
+
+2019-04-05 15:16:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("IEHomePageTestCase/TC005_NavigateTO_IE_HOME - Copy"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/IEHomePageTestCase/TC005_NavigateTO_IE_HOME - Copy' successfully
+
+2019-04-05 15:16:28 - [TEST_CASE][PASSED] - Test Cases/IEHomePageTestCase/TC005_NavigateTO_IE_HOME - Copy: Test Cases/IEHomePageTestCase/TC005_NavigateTO_IE_HOME - Copy
+
+2019-04-05 15:16:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CommonTestCase/TC001_OpenBrowserForStore"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/CommonTestCase/TC001_OpenBrowserForStore' successfully
+
+2019-04-05 15:16:28 - [TEST_CASE][PASSED] - Test Cases/CommonTestCase/TC001_OpenBrowserForStore: Test Cases/CommonTestCase/TC001_OpenBrowserForStore
+
+2019-04-05 15:16:29 - [TEST_STEP][PASSED] - getAllDetails_IE_HomePage.CommonTestcaseToOpenBrowser.lunchApplication(): getAllDetails_IE_HomePage.CommonTestcaseToOpenBrowser.lunchApplication is PASSED
+
+2019-04-05 15:16:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-05 15:16:29 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-05 15:16:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-05 15:16:41 - [MESSAGE][PASSED] - Navigate to 'http://hazr0240ada942.cloud.wal-mart.com' successfully
+
+2019-04-05 15:16:41 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-05 15:16:42 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-05 15:16:42 - [MESSAGE][PASSED] - Object 'Object Repository/IE_Home_Page/Logo' is visible
+
+2019-04-05 15:16:42 - [MESSAGE][PASSED] - getAllDetails_IE_HomePage.CommonTestcaseToOpenBrowser.lunchApplication is PASSED
+
+2019-04-05 15:16:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonTestCase/TC001_OpenBrowserForStore' successfully
+
+2019-04-05 15:16:42 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("IE_Home_Page/HOT_Operation"), Timeout): Object 'Object Repository/IE_Home_Page/HOT_Operation' is present
+
+2019-04-05 15:16:42 - [MESSAGE][PASSED] - Object 'Object Repository/IE_Home_Page/HOT_Operation' is present
+
+2019-04-05 15:16:42 - [TEST_STEP][PASSED] - click(findTestObject("IE_Home_Page/HOT_Operation")): Object: 'Object Repository/IE_Home_Page/HOT_Operation' is clicked on
+
+2019-04-05 15:16:44 - [MESSAGE][PASSED] - Object: 'Object Repository/IE_Home_Page/HOT_Operation' is clicked on
+
+2019-04-05 15:16:44 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("IE_Home_Page/TaskList"), Timeout): Object 'Object Repository/IE_Home_Page/TaskList' is present
+
+2019-04-05 15:16:44 - [MESSAGE][PASSED] - Object 'Object Repository/IE_Home_Page/TaskList' is present
+
+2019-04-05 15:16:44 - [TEST_STEP][PASSED] - click(findTestObject("IE_Home_Page/TaskList")): Object: 'Object Repository/IE_Home_Page/TaskList' is clicked on
+
+2019-04-05 15:16:45 - [MESSAGE][PASSED] - Object: 'Object Repository/IE_Home_Page/TaskList' is clicked on
+
+2019-04-05 15:16:45 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("IE_Home_Page/CaseID"), 5): Scroll to object 'Object Repository/IE_Home_Page/CaseID' successfully
+
+2019-04-05 15:16:48 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IE_Home_Page/CaseID' successfully
+
+2019-04-05 15:16:48 - [TEST_STEP][PASSED] - caseID = getText(findTestObject("IE_Home_Page/CaseID")): Text of object 'Object Repository/IE_Home_Page/CaseID' is: '1634'
+
+2019-04-05 15:16:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/IE_Home_Page/CaseID' is: '1634'
+
+2019-04-05 15:16:48 - [TEST_STEP][PASSED] - getAllDetails_IE_HomePage.PrintStatement.getTextofElement(caseID): getAllDetails_IE_HomePage.PrintStatement.getTextofElement is PASSED
+
+2019-04-05 15:16:48 - [MESSAGE][PASSED] - getAllDetails_IE_HomePage.PrintStatement.getTextofElement is PASSED
+
+2019-04-05 15:16:48 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("IE_Home_Page/Open"), Timeout): Object 'Object Repository/IE_Home_Page/Open' is present
+
+2019-04-05 15:16:48 - [MESSAGE][PASSED] - Object 'Object Repository/IE_Home_Page/Open' is present
+
+2019-04-05 15:16:48 - [TEST_STEP][PASSED] - click(findTestObject("IE_Home_Page/Open")): Object: 'Object Repository/IE_Home_Page/Open' is clicked on
+
+2019-04-05 15:16:49 - [MESSAGE][PASSED] - Object: 'Object Repository/IE_Home_Page/Open' is clicked on
+
+2019-04-05 15:16:49 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2019-04-05 15:16:49 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2019-04-05 15:16:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("IE_Home_Page/IE_HomePage_Text"), Timeout): Object 'Object Repository/IE_Home_Page/IE_HomePage_Text' is present
+
+2019-04-05 15:16:50 - [MESSAGE][PASSED] - Object 'Object Repository/IE_Home_Page/IE_HomePage_Text' is present
+
+2019-04-05 15:16:50 - [TEST_STEP][PASSED] - textOFWalmart = getText(findTestObject("IE_Home_Page/IE_HomePage_Text")): Text of object 'Object Repository/IE_Home_Page/IE_HomePage_Text' is: 'WALMART'
+
+2019-04-05 15:16:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/IE_Home_Page/IE_HomePage_Text' is: 'WALMART'
+
+2019-04-05 15:16:50 - [TEST_STEP][PASSED] - getAllDetails_IE_HomePage.PrintStatement.getTextofElement(textOFWalmart): getAllDetails_IE_HomePage.PrintStatement.getTextofElement is PASSED
+
+2019-04-05 15:16:50 - [MESSAGE][PASSED] - getAllDetails_IE_HomePage.PrintStatement.getTextofElement is PASSED
+
+2019-04-05 15:16:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/IEHomePageTestCase/TC005_NavigateTO_IE_HOME - Copy' successfully
+
+2019-04-05 15:16:50 - [TEST_STEP][PASSED] - getAllDetails_IE_HomePage.IE_Homepage_Detail.verifySwitchTabonIEHOME("Match & Reconcile"): getAllDetails_IE_HomePage.IE_Homepage_Detail.verifySwitchTabonIEHOME is PASSED
+
+2019-04-05 15:16:52 - [MESSAGE][PASSED] - getAllDetails_IE_HomePage.IE_Homepage_Detail.verifySwitchTabonIEHOME is PASSED
+
+2019-04-05 15:16:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/IEHomePageTestCase/TC003_ValidateSwitchBetweenTabOnIEHOME' successfully
+
+2019-04-05 15:16:52 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("IE_Home_MatchAndReconcile_Page/HeaderOfMatchAndReconcile"), Timeout): Object 'Object Repository/IE_Home_MatchAndReconcile_Page/HeaderOfMatchAndReconcile' is present
+
+2019-04-05 15:16:52 - [MESSAGE][PASSED] - Object 'Object Repository/IE_Home_MatchAndReconcile_Page/HeaderOfMatchAndReconcile' is present
+
+2019-04-05 15:16:52 - [TEST_STEP][PASSED] - elements = getText(findTestObject("IE_Home_MatchAndReconcile_Page/HeaderOfMatchAndReconcile")): Text of object 'Object Repository/IE_Home_MatchAndReconcile_Page/HeaderOfMatchAndReconcile' is: 'Home
+Match & Reconcile
+Shopping Cart
+Communications
+Account Details
+Receiver'
+
+2019-04-05 15:16:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/IE_Home_MatchAndReconcile_Page/HeaderOfMatchAndReconcile' is: 'Home
+Match & Reconcile
+Shopping Cart
+Communications
+Account Details
+Receiver'
+
+2019-04-05 15:16:52 - [TEST_STEP][PASSED] - getAllDetails_IE_HomePage.PrintStatement.getTextofElement(elements): getAllDetails_IE_HomePage.PrintStatement.getTextofElement is PASSED
+
+2019-04-05 15:16:52 - [MESSAGE][PASSED] - getAllDetails_IE_HomePage.PrintStatement.getTextofElement is PASSED
+
+2019-04-05 15:16:52 - [TEST_STEP][PASSED] - delay(Timeout_MinDelay): Delayed 2 second(s)
+
+2019-04-05 15:16:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-05 15:16:54 - [TEST_STEP][PASSED] - getAllDetails_IE_HomePage.Match_Reconcile_Detail.getHeaderDetailsOfMatchAndReconcile(): getAllDetails_IE_HomePage.Match_Reconcile_Detail.getHeaderDetailsOfMatchAndReconcile is PASSED
+
+2019-04-05 15:16:54 - [MESSAGE][PASSED] - getAllDetails_IE_HomePage.Match_Reconcile_Detail.getHeaderDetailsOfMatchAndReconcile is PASSED
+
+2019-04-05 15:16:54 - [TEST_STEP][PASSED] - getAllDetails_IE_HomePage.Match_Reconcile_Detail.getlistofReconHeader(): getAllDetails_IE_HomePage.Match_Reconcile_Detail.getlistofReconHeader is PASSED
+
+2019-04-05 15:16:55 - [MESSAGE][PASSED] - getAllDetails_IE_HomePage.Match_Reconcile_Detail.getlistofReconHeader is PASSED
+
+2019-04-05 15:16:55 - [TEST_STEP][PASSED] - getAllDetails_IE_HomePage.Match_Reconcile_Detail.getDetailsofReconHeader(): getAllDetails_IE_HomePage.Match_Reconcile_Detail.getDetailsofReconHeader is PASSED
+
+2019-04-05 15:16:55 - [MESSAGE][PASSED] - getAllDetails_IE_HomePage.Match_Reconcile_Detail.getDetailsofReconHeader is PASSED
+
+2019-04-05 15:16:55 - [TEST_STEP][PASSED] - delay(Timeout_MinDelay): Delayed 2 second(s)
+
+2019-04-05 15:16:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-05 15:16:57 - [TEST_STEP][PASSED] - getAllDetails_IE_HomePage.Match_Reconcile_Detail.getDetailsofReceiverHeader(): getAllDetails_IE_HomePage.Match_Reconcile_Detail.getDetailsofReceiverHeader is PASSED
+
+2019-04-05 15:16:58 - [MESSAGE][PASSED] - getAllDetails_IE_HomePage.Match_Reconcile_Detail.getDetailsofReceiverHeader is PASSED
+
+2019-04-05 15:16:58 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-04-05 15:16:58 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-04-05 15:16:58 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-05 15:16:24 - [TEST_SUITE][PASSED] - IE_MatchAndReconcile: Test Cases/MatchAndReconcilePageTestCase/TC010_VerifyDetailsofMatchAndReconcile]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
